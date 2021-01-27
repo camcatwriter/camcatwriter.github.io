@@ -23,6 +23,7 @@ main h1 {
 main img {
     float: right;
     padding: 1rem;
+    padding-top: 0;
 }
 
 footer {
