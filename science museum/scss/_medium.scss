@@ -1,0 +1,24 @@
+div#headerWrapper header h2 {
+    font-size: 1.2rem; 
+ }
+   div#navWrapper {
+    column-count: 1;
+   }
+
+   nav li {width: 25%; float: left;
+        //column-count: 1;
+    }
+    
+    main figure {
+        float: right; 
+        clear: both;
+        width: 50%; 
+        margin-left: 2%;
+        padding-bottom: .5rem;
+    }
+    
+    div.news p{
+        column-count: 1;
+        column-rule: 1px solid #ddd;
+    }
+    
