@@ -374,6 +374,10 @@ nav ul li.active a {
 main {
   padding: 0 2%;
   min-height: 10rem; }
+  main div.cardDeck {
+    display: flex; }
+  main div.card {
+    flex-basis: 33%; }
   main div.card:hover img {
     animation: bounce 1s 2; }
   main img {
@@ -430,7 +434,7 @@ footer {
 /* end of media query */
 @media only screen and (min-width: 60rem) {
   header, nav, main, footer {
-    max-width: 64rem;
+    max-width: 60rem;
     margin: auto; }
 
   /*----------- BODY --------------*/
