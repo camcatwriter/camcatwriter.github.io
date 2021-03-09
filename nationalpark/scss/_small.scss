@@ -70,6 +70,12 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 
+    div.card {
+        border: 1px dashed red;
+    }
+    div.card:hover img {
+        animation: bounce 1s 2;
+    }
     img {
         position: relative;
     }
