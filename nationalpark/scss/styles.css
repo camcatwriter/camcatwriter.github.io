@@ -377,7 +377,7 @@ main {
   main div.cardDeck {
     display: flex; }
   main div.card {
-    flex-basis: 33%; }
+    flex-basis: 30%; }
   main div.card:hover img {
     animation: bounce 1s 2; }
   main img {
