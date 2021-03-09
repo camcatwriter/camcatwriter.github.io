@@ -69,6 +69,19 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 10rem;
+
+    img {
+        position: relative;
+    }
+    img:hover {
+        animation: bounce 1s 2;
+    }
+
+    @keyframes bounce {
+        0% {bottom: 0px;}
+        50% {bottom: 20px;}
+        100% {bottom: 0px;}
+    }
 }
 
 
