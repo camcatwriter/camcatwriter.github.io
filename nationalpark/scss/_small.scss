@@ -73,9 +73,7 @@ main {
     img {
         position: relative;
     }
-    img:hover {
-        animation: bounce 1s 2;
-    }
+    img:hover {animation: bounce 1s 2;}
 
     @keyframes bounce {
         0% {bottom: 0px;}
