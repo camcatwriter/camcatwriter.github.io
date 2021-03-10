@@ -76,7 +76,12 @@ main {
         display: flex;
     }
     div.card {
-        flex-basis: 30%;
+        flex-basis: 33%;
+        width: 33%;
+
+        img {
+            width: 100%;
+        }
     }
 
     div.card:hover img {
