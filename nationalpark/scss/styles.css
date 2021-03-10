@@ -442,7 +442,6 @@ footer {
   div#headerWrapper {
     background-image: url(../images/headerimage-large.jpg);
     height: 400px;
-    max-width: 60rem;
     background-size: cover;
     background-position: center top; }
 
