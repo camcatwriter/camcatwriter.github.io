@@ -71,23 +71,38 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 10rem;
+    
+    $cbr: 10px;
 
     div.cardDeck {
         display: flex;
         flex-wrap: wrap;
-    }
+    } //end of cardDeck
+
     div.card {
-        margin: 0;
+        margin: 1rem 0;
         padding-left: 1%;
         padding-right: 1%;
+        padding-bottom: 3%;
         
         flex-basis: 100%;
         width: 100%;
 
+        border: 1px solid #999;
+        border-radius: $cbr;
+        
+        
+        section {
+            background-color: #555;
+            color: #eee;
+            padding: 1rem 0;
+            text-align: center;
+        }//end of section
+
         img {
             width: 100%;
         }
-    }
+    }//end of card
 
     div.card:hover img {
         animation: bounce 2s 1;

@@ -378,11 +378,19 @@ main {
     display: flex;
     flex-wrap: wrap; }
   main div.card {
-    margin: 0;
+    margin: 1rem 0;
     padding-left: 1%;
     padding-right: 1%;
+    padding-bottom: 3%;
     flex-basis: 100%;
-    width: 100%; }
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 10px; }
+    main div.card section {
+      background-color: #555;
+      color: #eee;
+      padding: 1rem 0;
+      text-align: center; }
     main div.card img {
       width: 100%; }
   main div.card:hover img {
