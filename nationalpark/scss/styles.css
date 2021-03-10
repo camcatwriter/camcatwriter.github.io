@@ -377,6 +377,7 @@ main {
   main div.cardDeck {
     display: flex; }
   main div.card {
+    flex-basis: 100%;
     width: 100%; }
     main div.card img {
       width: 100%; }
@@ -433,6 +434,7 @@ footer {
 
   /*----------- MAIN --------------*/
   div.card {
+    flex-basis: 48%;
     width: 48%; }
 
   /*----------- FOOTER --------------*/ }
@@ -453,6 +455,7 @@ footer {
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   div.card {
+    flex-basis: 33%;
     width: 33%; }
 
   /*----------- FOOTER --------------*/ }
