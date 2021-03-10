@@ -378,21 +378,35 @@ main {
     display: flex;
     flex-wrap: wrap; }
   main div.card {
-    margin: 1rem 0;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 3%;
+    margin: 1rem 1%;
     flex-basis: 100%;
-    width: 100%;
     border: 1px solid #999;
+    background-color: #ccc;
     border-radius: 10px; }
     main div.card section {
-      background-color: #555;
-      color: #eee;
+      background-color: #c1c1c1;
+      border-bottom: 2px solid #777;
+      color: #111;
       padding: 1rem 0;
-      text-align: center; }
+      text-align: center;
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px; }
     main div.card img {
-      width: 100%; }
+      width: 100%;
+      padding: 1rem; }
+    main div.card p {
+      padding: 1rem 2vw; }
+    main div.card a {
+      display: block;
+      background-color: #888;
+      color: #111;
+      padding: 1rem 0;
+      margin: 1rem 4vw;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px; }
+    main div.card a:hover {
+      background-color: #a2a2a2; }
   main div.card:hover img {
     animation: bounce 2s 1; }
   main img {
@@ -474,7 +488,7 @@ footer {
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   main div.card {
-    flex-basis: 33%; }
+    flex-basis: 31%; }
 
   /*----------- FOOTER --------------*/ }
 /* end of media query */
