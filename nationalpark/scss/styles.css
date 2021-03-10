@@ -375,21 +375,33 @@ main {
   padding: 0 2%;
   min-height: 10rem; }
   main div.cardDeck {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
   main div.card {
+    margin: 0;
+    padding-left: 1%;
+    padding-right: 1%;
     flex-basis: 33%;
     width: 100%; }
     main div.card img {
       width: 100%; }
   main div.card:hover img {
-    animation: bounce 1s 2; }
+    animation: bounce 2s 1; }
   main img {
     position: relative; }
 @keyframes bounce {
   0% {
-    bottom: 0px; }
+    bottom: 0px;
+    animation-timing-function: ease-out; }
+  25% {
+    bottom: 60px;
+    animation-timing-function: ease-in; }
   50% {
-    bottom: 20px; }
+    bottom: 0px;
+    animation-timing-function: ease-out; }
+  75% {
+    bottom: 30px;
+    animation-timing-function: ease-in; }
   100% {
     bottom: 0px; } }
 /*----------- FOOTER --------------*/
