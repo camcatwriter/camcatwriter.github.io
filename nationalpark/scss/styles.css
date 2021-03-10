@@ -377,8 +377,7 @@ main {
   main div.cardDeck {
     display: flex; }
   main div.card {
-    flex-basis: 33%;
-    width: 33%; }
+    width: 100%; }
     main div.card img {
       width: 100%; }
   main div.card:hover img {
@@ -433,6 +432,9 @@ footer {
     padding: .5rem 1rem; }
 
   /*----------- MAIN --------------*/
+  div.card {
+    width: 48%; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 @media only screen and (min-width: 60rem) {
@@ -450,6 +452,9 @@ footer {
 
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
+  div.card {
+    width: 33%; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 
