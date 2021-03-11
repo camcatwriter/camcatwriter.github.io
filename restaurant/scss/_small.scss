@@ -71,6 +71,7 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 10rem;
+    padding-bottom: 4%;
 }
 
 picture.photoA {
@@ -86,6 +87,7 @@ picture.photoB {
     float: right;
     width: 46%;
     margin: 0 2%;
+    clear: both;
 }
 
 /*----------- FOOTER --------------*/
