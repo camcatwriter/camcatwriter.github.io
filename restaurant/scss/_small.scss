@@ -15,7 +15,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: white;
+    background-color: lighten($mainColor, 40%);
 
 }
 
@@ -24,12 +24,19 @@ header figure.logo {
     margin: 0 2% 0 0;
 }
 
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
+header h1 {
+    margin: 0;
+    color: darken($mainColor, 30%);
+}
+header h2 {
+    margin: 0;
+    font-weight: normal;
+    color: darken($mainColor, 30%);
+}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color: darken($mainColor, 15%);
 }
 nav ul {
     list-style-type: none;
@@ -42,9 +49,9 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    background-color: darken(#666, 10%);
+    background-color: darken($mainColor, 10%);
     color: #eee;
-    border-left: 1px solid #777;
+    border-left: 1px solid darken($mainColor, 30%);
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -53,11 +60,11 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: lighten(#666, 20%);
+    background-color: lighten($mainColor, 10%);
     color: #fff;
 }
 nav ul li.active a {
-    background-color: darken(#666, 20%);
+    background-color: darken($mainColor, 20%);
     color: #fff;
 }
 /*----------- MAIN --------------*/
@@ -68,7 +75,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: lighten($mainColor, 40%);
     padding: .5rem 2%;
     text-align: center;
 }

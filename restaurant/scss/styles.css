@@ -322,22 +322,24 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: .5rem 2%;
-  background-color: white; }
+  background-color: #d2d3ed; }
 
 header figure.logo {
   float: left;
   margin: 0 2% 0 0; }
 
 header h1 {
-  margin: 0; }
+  margin: 0;
+  color: #1a1c40; }
 
 header h2 {
   margin: 0;
-  font-weight: normal; }
+  font-weight: normal;
+  color: #1a1c40; }
 
 /*----------- NAVIGATION --------------*/
 nav {
-  background-color: #666; }
+  background-color: #303377; }
 
 nav ul {
   list-style-type: none;
@@ -350,9 +352,9 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  background-color: #4d4d4d;
+  background-color: #373b89;
   color: #eee;
-  border-left: 1px solid #777;
+  border-left: 1px solid #1a1c40;
   padding: .5rem 0;
   text-decoration: none;
   font-size: .9rem;
@@ -362,11 +364,11 @@ nav ul li:first-child a {
   border-left: none; }
 
 nav ul li a:hover {
-  background-color: #999999;
+  background-color: #656ac1;
   color: #fff; }
 
 nav ul li.active a {
-  background-color: #333333;
+  background-color: #292c64;
   color: #fff; }
 
 /*----------- MAIN --------------*/
@@ -376,7 +378,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #ddd;
+  background-color: #d2d3ed;
   padding: .5rem 2%;
   text-align: center; }
 
@@ -404,10 +406,10 @@ footer {
     width: auto; }
 
   nav ul li:first-child a {
-    border-left: 1px solid #777; }
+    border-left: 1px solid #1a1c40; }
 
   nav ul li:last-child a {
-    border-right: 1px solid #777; }
+    border-right: 1px solid #1a1c40; }
 
   nav ul li a {
     padding: .5rem 1rem; }
