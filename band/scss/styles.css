@@ -386,6 +386,17 @@ footer {
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
   /*----------- NAVIGATION --------------*/
+  /*----------- MAIN --------------*/
+  /*----------- FOOTER --------------*/ }
+/* end of media query */
+@media only screen and (min-width: 64rem) {
+  header, nav, main, footer {
+    max-width: 64rem;
+    margin: auto; }
+
+  /*----------- BODY --------------*/
+  /*----------- HEADER --------------*/
+  /*----------- NAVIGATION --------------*/
   nav ul {
     margin-left: 2%; }
 
@@ -401,17 +412,6 @@ footer {
   nav ul li a {
     padding: .5rem 1rem; }
 
-  /*----------- MAIN --------------*/
-  /*----------- FOOTER --------------*/ }
-/* end of media query */
-@media only screen and (min-width: 64rem) {
-  header, nav, main, footer {
-    max-width: 64rem;
-    margin: auto; }
-
-  /*----------- BODY --------------*/
-  /*----------- HEADER --------------*/
-  /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   /*----------- FOOTER --------------*/ }
 /* end of media query */
