@@ -58,6 +58,19 @@ main {
     min-height: 10rem;
 }
 
+div.bioDeck {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.bio {
+    flex-basis: 100%;
+    margin: 1%;
+    img {
+        float: right;
+        width: 48%;
+    }
+}
 
 section.gallery figure{
     width: 100%;

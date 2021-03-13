@@ -370,6 +370,17 @@ main {
   padding: 0 2%;
   min-height: 10rem; }
 
+div.bioDeck {
+  display: flex;
+  flex-wrap: wrap; }
+
+div.bio {
+  flex-basis: 100%;
+  margin: 1%; }
+  div.bio img {
+    float: right;
+    width: 48%; }
+
 section.gallery figure {
   width: 100%;
   height: 0;
@@ -400,6 +411,11 @@ footer {
   /*----------- HEADER --------------*/
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
+  main div.bio {
+    flex-basis: 48%; }
+    main div.bio img {
+      width: 48%; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 @media only screen and (min-width: 64rem) {
@@ -426,6 +442,11 @@ footer {
     padding: .5rem 1rem; }
 
   /*----------- MAIN --------------*/
+  main div.bio {
+    flex-basis: 23%; }
+    main div.bio img {
+      width: 48%; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 

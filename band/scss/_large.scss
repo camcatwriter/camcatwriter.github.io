@@ -22,7 +22,10 @@ nav ul li a{padding: .5rem 1rem;}
 
 /*----------- MAIN --------------*/
 
-
+main div.bio {
+        flex-basis: 23%;
+        img {width: 48%;}
+    }
 
 /*----------- FOOTER --------------*/
     
