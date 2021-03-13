@@ -392,13 +392,13 @@ figure.circle img {
   margin: .5rem; }
 
 figure.triangle img {
-  shape-outside: polygon(0 0, 100% 0, 100% 0);
-  clip-path: polygon(0 0, 100% 0, 100% 0);
+  shape-outside: polygon(50% 0, 100% 50%, 0 50%);
+  clip-path: polygon(50% 0, 100% 50%, 0 50%);
   margin: .5rem; }
 
 figure.cortriangle img {
-  shape-outside: polygon(0 0, 100% 0, 50% 0);
-  clip-path: polygon(0 0, 100% 0, 50% 0);
+  shape-outside: polygon(100% 0, 0 0, 100% 100%);
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
   margin: .5rem; }
 
 section.gallery figure {
