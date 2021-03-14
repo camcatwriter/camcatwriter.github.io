@@ -89,8 +89,8 @@ figure.circle img {
 }
 
 figure.triangle img {
-    shape-outside: polygon(50% 0, 100% 100%, 0 100%);
-    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    shape-outside: polygon(50% 0, 100% 75%, 0 75%);
+    clip-path: polygon(50% 0, 100% 75%, 0 75%);
     margin: .5rem;
 }
 
