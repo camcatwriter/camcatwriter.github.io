@@ -317,13 +317,11 @@ html {
 /*----------- BODY --------------*/
 body {
   font-size: 16px;
-  font-family: 'Bitter', serif; }
+  font-family: 'Roboto Slab', serif; }
 
 /*----------- HEADER --------------*/
 div#headerWrapper {
-  background-color: #ddd;
-  background-image: url(../images/headerimage-small.jpg);
-  height: 140px; }
+  background-color: #ddd; }
 
 header {
   padding: .5rem 2%; }
