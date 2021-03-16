@@ -444,8 +444,7 @@ footer {
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
   div#headerWrapper {
-    background-image: url(../images/headerimage-medium.jpg);
-    height: 240px; }
+    background-color: #555; }
 
   header h2 {
     color: #000; }
@@ -480,10 +479,7 @@ footer {
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
   div#headerWrapper {
-    background-image: url(../images/headerimage-large.jpg);
-    height: 400px;
-    background-size: cover;
-    background-position: center top; }
+    background-color: #555; }
 
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
