@@ -331,8 +331,7 @@ header h1 {
 
 header h2 {
   margin: 0;
-  font-weight: normal;
-  color: #eee; }
+  font-weight: normal; }
 
 /*----------- NAVIGATION --------------*/
 div#navWrapper {
