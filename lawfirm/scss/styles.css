@@ -329,15 +329,16 @@ header {
 
 header h1 {
   margin: 0;
-  color: #ddd; }
+  color: #f8daba; }
 
 header h2 {
   margin: 0;
   font-weight: normal;
-  color: #ddd; }
+  color: #f8daba; }
 
 input.search {
-  float: right; }
+  float: right;
+  margin: .5rem 0 0 0; }
 
 /*----------- NAVIGATION --------------*/
 /*div#navWrapper {
@@ -362,7 +363,7 @@ nav ul li {
 nav ul li a {
   display: block;
   background-color: #A15E15;
-  color: #ddd;
+  color: #f8daba;
   padding: .5rem 0;
   text-decoration: none;
   font-size: 1.2rem;
@@ -382,40 +383,37 @@ nav ul li.active a {
 /*----------- MAIN --------------*/
 main {
   padding: 0 2%;
-  min-height: 10rem; }
-  main div.cardDeck {
-    display: flex;
-    flex-wrap: wrap; }
-  main div.card {
+  min-height: 10rem;
+  /*div.cardDeck {
+      display: flex;
+      flex-wrap: wrap;
+  } //end of cardDeck*/ }
+  main div.card1 {
     margin: 1rem 1%;
     flex-basis: 100%;
-    border: 1px solid #999;
-    background-color: #ccc;
-    border-radius: 10px; }
-    main div.card section {
-      background-color: #c1c1c1;
-      border-bottom: 2px solid #777;
+    border: 1px solid #553819;
+    background-color: #f8daba; }
+    main div.card1 section {
+      background-color: #f8daba;
+      border-bottom: 2px solid #553819;
       color: #111;
       padding: 1rem 0;
-      text-align: center;
-      border-top-left-radius: 9px;
-      border-top-right-radius: 9px; }
-    main div.card img {
+      text-align: center; }
+    main div.card1 img {
       width: 100%;
       padding: 1rem; }
-    main div.card p {
-      padding: 1rem 2vw; }
-    main div.card a {
+    main div.card1 button {
       display: block;
-      background-color: #888;
-      color: #111;
-      padding: 1rem 0;
+      background-color: #553819;
+      color: #f8daba;
+      padding: .5rem;
       margin: 1rem 4vw;
-      text-align: center;
+      width: 91%;
       text-decoration: none;
+      border: 1px #A15E15 solid;
       border-radius: 10px; }
-    main div.card a:hover {
-      background-color: #a2a2a2; }
+    main div.card1 button:hover {
+      background-color: #7c5225; }
 
 /*----------- FOOTER --------------*/
 div#footerWrapper {
