@@ -356,18 +356,13 @@ nav ul {
   padding: 0;
   margin: 0; }
 
-nav ul li {
-  float: left;
-  width: 25%; }
-
 nav ul li a {
   display: block;
   background-color: #A15E15;
   color: #f8daba;
-  padding: .5rem 0;
+  padding: .5rem;
   text-decoration: none;
-  font-size: 1.2rem;
-  text-align: center; }
+  font-size: 1.2rem; }
 
 nav ul li:first-child a {
   border-left: none; }
@@ -387,6 +382,10 @@ main {
   main div.flexed {
     display: flex;
     flex-wrap: wrap; }
+  main .column {
+    padding: 0 2vw; }
+  main .small-0 {
+    flex-basis: 0%; }
   main .small-1 {
     flex-basis: 8.3333333333%; }
   main .small-2 {
@@ -409,10 +408,26 @@ main {
     flex-basis: 83.3333333333%; }
   main .small-11 {
     flex-basis: 91.6666666667%; }
-  main .column {
-    padding: 0 2vw; }
+  main .small-12 {
+    flex-basis: 100%; }
+  main button {
+    display: block;
+    background-color: #553819;
+    color: #f8daba;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    border: 1px #A15E15 solid;
+    border-radius: 10px;
+    width: 100%; }
+  main button:hover {
+    background-color: #7c5225; }
+  main button.cta {
+    margin: .5rem 0;
+    border-radius: 0;
+    padding: 1.5rem; }
   main div.card1 {
-    margin: 1rem 1%;
+    margin: 1rem 0;
     border: 1px solid #553819;
     background-color: #f8daba; }
     main div.card1 section {
@@ -424,17 +439,24 @@ main {
     main div.card1 img {
       width: 100%;
       padding: 1rem; }
-    main div.card1 button {
-      display: block;
-      background-color: #553819;
-      color: #f8daba;
-      padding: .5rem;
-      margin: 1rem 4vw;
-      text-decoration: none;
-      border: 1px #A15E15 solid;
-      border-radius: 10px; }
-    main div.card1 button:hover {
-      background-color: #7c5225; }
+  main .end {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    background-color: #fae6d1; }
+  main .blog {
+    margin-top: .5rem;
+    background-color: #f8daba; }
+    main .blog h2 {
+      margin-top: 0; }
+    main .blog button {
+      background-color: #ffcf9d;
+      color: #553819;
+      border-radius: 0;
+      border: none; }
+  main a {
+    text-decoration: none;
+    color: #553819; }
 
 /*----------- FOOTER --------------*/
 div#footerWrapper {
@@ -472,39 +494,41 @@ footer {
   nav ul li a {
     padding: .5rem 1rem; }
 
+  nav ul li {
+    float: left; }
+
+  nav ul li a {
+    text-align: center; }
+
   /*----------- MAIN --------------*/
-  .medium-1 {
+  main .medium-0 {
+    flex-basis: 0%; }
+  main .medium-1 {
     flex-basis: 8.3333333333%; }
-
-  .medium-2 {
+  main .medium-2 {
     flex-basis: 16.6666666667%; }
-
-  .medium-3 {
+  main .medium-3 {
     flex-basis: 25%; }
-
-  .medium-4 {
+  main .medium-4 {
     flex-basis: 33.3333333333%; }
-
-  .medium-5 {
+  main .medium-5 {
     flex-basis: 41.6666666667%; }
-
-  .medium-6 {
+  main .medium-6 {
     flex-basis: 50%; }
-
-  .medium-7 {
+  main .medium-7 {
     flex-basis: 58.3333333333%; }
-
-  .medium-8 {
+  main .medium-8 {
     flex-basis: 66.6666666667%; }
-
-  .medium-9 {
+  main .medium-9 {
     flex-basis: 75%; }
-
-  .medium-10 {
+  main .medium-10 {
     flex-basis: 83.3333333333%; }
-
-  .medium-11 {
+  main .medium-11 {
     flex-basis: 91.6666666667%; }
+  main .medium-12 {
+    flex-basis: 100%; }
+  main button.cta {
+    margin: 1rem 0 2rem 0; }
 
   /*----------- FOOTER --------------*/
   footer a {
@@ -522,38 +546,34 @@ footer {
       }*/
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
-  .large-1 {
+  main .blog {
+    margin: 0; }
+  main .large-0 {
+    flex-basis: 0%; }
+  main .large-1 {
     flex-basis: 8.3333333333%; }
-
-  .large-2 {
+  main .large-2 {
     flex-basis: 16.6666666667%; }
-
-  .large-3 {
+  main .large-3 {
     flex-basis: 25%; }
-
-  .large-4 {
+  main .large-4 {
     flex-basis: 33.3333333333%; }
-
-  .large-5 {
+  main .large-5 {
     flex-basis: 41.6666666667%; }
-
-  .large-6 {
+  main .large-6 {
     flex-basis: 50%; }
-
-  .large-7 {
+  main .large-7 {
     flex-basis: 58.3333333333%; }
-
-  .large-8 {
+  main .large-8 {
     flex-basis: 66.6666666667%; }
-
-  .large-9 {
+  main .large-9 {
     flex-basis: 75%; }
-
-  .large-10 {
+  main .large-10 {
     flex-basis: 83.3333333333%; }
-
-  .large-11 {
+  main .large-11 {
     flex-basis: 91.6666666667%; }
+  main .large-12 {
+    flex-basis: 100%; }
 
   /*----------- FOOTER --------------*/ }
 /* end of media query */

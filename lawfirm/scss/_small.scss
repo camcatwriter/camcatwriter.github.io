@@ -45,19 +45,15 @@ nav ul {
     padding: 0;
     margin: 0;
 }
-nav ul li {
-    float: left;
-    width: 25%;
-}
+
 
 nav ul li a {
     display: block;
     background-color: #A15E15;
     color: #f8daba;
-    padding: .5rem 0;
+    padding: .5rem;
     text-decoration: none;
     font-size: 1.2rem;
-    text-align: center;
 }
 nav ul li:first-child a {border-left: none;}
 
@@ -80,50 +76,80 @@ main {
         display: flex;
         flex-wrap: wrap;
     }
-    @for $i from 1 to 12 {
+    .column {
+        padding: 0 $gutter;
+    }
+    
+    @for $i from 0 through 12 {
         $w:($i / 12) * 100%;
         .small-#{$i} {flex-basis: $w;}
     }
 
-    .column {
-        padding: 0 $gutter;
+    button {
+        display: block;
+        background-color: #553819;
+        color: #f8daba;
+        padding: .5rem;
+        margin-bottom: .5rem;
+        text-decoration: none;
+        border: 1px #A15E15 solid;
+        border-radius: $cbr;
+        width: 100%
     }
-
+    button:hover {
+        background-color: lighten(#553819, 10%);
+    }
+    button.cta {
+        margin: .5rem 0;
+        border-radius: 0;
+        padding: 1.5rem;
+    }
+    
     div.card1 {
-        margin: 1rem 1%;
+        margin: 1rem 0;
         border: 1px solid #553819;
         background-color: #f8daba;
-
-        
-        
         section {
             background-color: #f8daba;
             border-bottom: 2px solid #553819;
             color: #111;
             padding: 1rem 0;
-            text-align: center;
-            
+            text-align: center; 
         }//end of section
-
         img {
             width: 100%;
             padding: 1rem;
         }
-
-        button {
-            display: block;
-            background-color: #553819;
-            color: #f8daba;
-            padding: .5rem;
-            margin: 1rem 4vw;
-            text-decoration: none;
-            border: 1px #A15E15 solid;
-            border-radius: $cbr;
-        }
-        button:hover {
-            background-color: lighten(#553819, 10%);
-        }
+        
     }//end of card
+
+    .end {
+            // border: 1px #A15E15 solid;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            padding-bottom: .5rem;
+            background-color: lighten($color: #f8daba, $amount: 5%) ;
+    }
+
+    .blog {
+        margin-top: .5rem;
+        background-color: #f8daba;
+        
+        h2{
+            margin-top: 0;
+        }
+        button{
+            background-color: #ffcf9d;
+            color: #553819;
+            border-radius: 0;
+            border: none;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: #553819;
+    }
 }
 
 

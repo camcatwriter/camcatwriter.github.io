@@ -17,14 +17,17 @@ header, nav, main, div.card, footer {
 /*----------- NAVIGATION --------------*/
 
 
-
 /*----------- MAIN --------------*/
+main{
+        .blog {
+                margin: 0;
+        }
 
-@for $i from 1 to 12 {
+@for $i from 0 through 12 {
         $w:($i / 12) * 100%;
         .large-#{$i}{flex-basis: $w;}
     }
-
+}
 
 /*----------- FOOTER --------------*/
     

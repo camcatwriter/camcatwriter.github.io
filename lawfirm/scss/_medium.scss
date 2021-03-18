@@ -15,13 +15,25 @@
     nav ul {margin-left: 2%;}
     nav ul li {width: auto;}
     nav ul li a{padding: .5rem 1rem;}
+    nav ul li {
+        float: left;
+    }
 
+nav ul li a {
+    text-align: center;
+}
 
 /*----------- MAIN --------------*/
-
-@for $i from 1 to 12 {
+main{
+@for $i from 0 through 12 {
     $w:($i / 12) * 100%;
-    .medium-#{$i}{flex-basis: $w;}
+    .medium-#{$i} {flex-basis: $w;}
+}
+
+button.cta{
+    margin: 1rem 0 2rem 0;
+
+}
 }
 /*----------- FOOTER --------------*/
     
