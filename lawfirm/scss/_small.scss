@@ -76,22 +76,19 @@ main {
     padding: 0 2%;
     min-height: 10rem;
     
-    $cbr: 10px;
-
-    /*div.cardDeck {
-        display: flex;
-        flex-wrap: wrap;
-    } //end of cardDeck*/
+    
 
     div.card1 {
         margin: 1rem 1%;
-        
         flex-basis: 100%;
-        
-
         border: 1px solid #553819;
         background-color: #f8daba;
-        
+        display: flex;
+        flex-wrap: wrap;
+
+        .column {
+            padding: 0 $gutter;
+        }
         
         section {
             background-color: #f8daba;
