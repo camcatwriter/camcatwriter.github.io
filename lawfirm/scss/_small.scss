@@ -27,16 +27,16 @@ header h1 {margin: 0; color: #ddd;}
 header h2 {margin: 0; font-weight: normal; color: #ddd;}
 input.search {float: right;}
 /*----------- NAVIGATION --------------*/
-div#navWrapper {
+/*div#navWrapper {
     background-color: #A15E15;
     // max-width: 75rem;
-}
+}*/
 
 // nav {
     
 // }
 
-
+nav {background-color: #A15E15;}
 nav a:hover {background-color: #ffcf9d;}
 
 
@@ -56,7 +56,7 @@ nav ul li a {
     color: #ddd;
     padding: .5rem 0;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 nav ul li:first-child a {border-left: none;}
@@ -133,12 +133,20 @@ main {
 
 /*----------- FOOTER --------------*/
 div#footerWrapper {
-     background-color: #bbbbbb;
+     background-color: #ffcf9d;
+     border-top: 2px #553819 solid;
 }
 
 footer {
     padding: .5rem 2%;
     text-align: center;
+
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 0 8%;
+        color: #A15E15;
+    }
 }
 
 

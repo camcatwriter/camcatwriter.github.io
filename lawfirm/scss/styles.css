@@ -340,7 +340,11 @@ input.search {
   float: right; }
 
 /*----------- NAVIGATION --------------*/
-div#navWrapper {
+/*div#navWrapper {
+    background-color: #A15E15;
+    // max-width: 75rem;
+}*/
+nav {
   background-color: #A15E15; }
 
 nav a:hover {
@@ -361,7 +365,7 @@ nav ul li a {
   color: #ddd;
   padding: .5rem 0;
   text-decoration: none;
-  font-size: .9rem;
+  font-size: 1.2rem;
   text-align: center; }
 
 nav ul li:first-child a {
@@ -415,11 +419,17 @@ main {
 
 /*----------- FOOTER --------------*/
 div#footerWrapper {
-  background-color: #bbbbbb; }
+  background-color: #ffcf9d;
+  border-top: 2px #553819 solid; }
 
 footer {
   padding: .5rem 2%;
   text-align: center; }
+  footer a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0 8%;
+    color: #A15E15; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -447,7 +457,9 @@ footer {
   main div.card {
     flex-basis: 48%; }
 
-  /*----------- FOOTER --------------*/ }
+  /*----------- FOOTER --------------*/
+  footer a {
+    padding: 0 2%; } }
 /* end of media query */
 @media only screen and (min-width: 60rem) {
   header, nav, main, div.card, footer {
