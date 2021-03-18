@@ -118,11 +118,15 @@ main {
         }//end of section
         img {
             width: 100%;
-            padding: 1rem;
         }
         
     }//end of card
 
+    img {
+        width: 100%;
+        padding-top: .5rem;
+    }
+    
     .end {
             // border: 1px #A15E15 solid;
             margin-top: .5rem;
