@@ -19,10 +19,10 @@
 
 /*----------- MAIN --------------*/
 
-main div.card {
-    flex-basis: 48%;
+@for $i from 1 to 12 {
+    $w:($i / 12) * 100%;
+    .medium-#{$i}{flex-basis: $w;}
 }
-
 /*----------- FOOTER --------------*/
     
 footer {

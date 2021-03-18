@@ -76,19 +76,25 @@ main {
     padding: 0 2%;
     min-height: 10rem;
     
-    
+    div.flexed {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @for $i from 1 to 12 {
+        $w:($i / 12) * 100%;
+        .small-#{$i} {flex-basis: $w;}
+    }
+
+    .column {
+        padding: 0 $gutter;
+    }
 
     div.card1 {
         margin: 1rem 1%;
-        flex-basis: 100%;
         border: 1px solid #553819;
         background-color: #f8daba;
-        display: flex;
-        flex-wrap: wrap;
 
-        .column {
-            padding: 0 $gutter;
-        }
+        
         
         section {
             background-color: #f8daba;
@@ -110,7 +116,6 @@ main {
             color: #f8daba;
             padding: .5rem;
             margin: 1rem 4vw;
-            width: 91%;
             text-decoration: none;
             border: 1px #A15E15 solid;
             border-radius: $cbr;

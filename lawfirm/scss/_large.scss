@@ -19,9 +19,11 @@ header, nav, main, div.card, footer {
 
 
 /*----------- MAIN --------------*/
-main div.card {
-        flex-basis: 31%;
-}
+
+@for $i from 1 to 12 {
+        $w:($i / 12) * 100%;
+        .large-#{$i}{flex-basis: $w;}
+    }
 
 
 /*----------- FOOTER --------------*/

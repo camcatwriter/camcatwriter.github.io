@@ -384,15 +384,37 @@ nav ul li.active a {
 main {
   padding: 0 2%;
   min-height: 10rem; }
-  main div.card1 {
-    margin: 1rem 1%;
-    flex-basis: 100%;
-    border: 1px solid #553819;
-    background-color: #f8daba;
+  main div.flexed {
     display: flex;
     flex-wrap: wrap; }
-    main div.card1 .column {
-      padding: 0 2vw; }
+  main .small-1 {
+    flex-basis: 8.3333333333%; }
+  main .small-2 {
+    flex-basis: 16.6666666667%; }
+  main .small-3 {
+    flex-basis: 25%; }
+  main .small-4 {
+    flex-basis: 33.3333333333%; }
+  main .small-5 {
+    flex-basis: 41.6666666667%; }
+  main .small-6 {
+    flex-basis: 50%; }
+  main .small-7 {
+    flex-basis: 58.3333333333%; }
+  main .small-8 {
+    flex-basis: 66.6666666667%; }
+  main .small-9 {
+    flex-basis: 75%; }
+  main .small-10 {
+    flex-basis: 83.3333333333%; }
+  main .small-11 {
+    flex-basis: 91.6666666667%; }
+  main .column {
+    padding: 0 2vw; }
+  main div.card1 {
+    margin: 1rem 1%;
+    border: 1px solid #553819;
+    background-color: #f8daba; }
     main div.card1 section {
       background-color: #f8daba;
       border-bottom: 2px solid #553819;
@@ -408,7 +430,6 @@ main {
       color: #f8daba;
       padding: .5rem;
       margin: 1rem 4vw;
-      width: 91%;
       text-decoration: none;
       border: 1px #A15E15 solid;
       border-radius: 10px; }
@@ -452,8 +473,38 @@ footer {
     padding: .5rem 1rem; }
 
   /*----------- MAIN --------------*/
-  main div.card {
-    flex-basis: 48%; }
+  .medium-1 {
+    flex-basis: 8.3333333333%; }
+
+  .medium-2 {
+    flex-basis: 16.6666666667%; }
+
+  .medium-3 {
+    flex-basis: 25%; }
+
+  .medium-4 {
+    flex-basis: 33.3333333333%; }
+
+  .medium-5 {
+    flex-basis: 41.6666666667%; }
+
+  .medium-6 {
+    flex-basis: 50%; }
+
+  .medium-7 {
+    flex-basis: 58.3333333333%; }
+
+  .medium-8 {
+    flex-basis: 66.6666666667%; }
+
+  .medium-9 {
+    flex-basis: 75%; }
+
+  .medium-10 {
+    flex-basis: 83.3333333333%; }
+
+  .medium-11 {
+    flex-basis: 91.6666666667%; }
 
   /*----------- FOOTER --------------*/
   footer a {
@@ -471,8 +522,38 @@ footer {
       }*/
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
-  main div.card {
-    flex-basis: 31%; }
+  .large-1 {
+    flex-basis: 8.3333333333%; }
+
+  .large-2 {
+    flex-basis: 16.6666666667%; }
+
+  .large-3 {
+    flex-basis: 25%; }
+
+  .large-4 {
+    flex-basis: 33.3333333333%; }
+
+  .large-5 {
+    flex-basis: 41.6666666667%; }
+
+  .large-6 {
+    flex-basis: 50%; }
+
+  .large-7 {
+    flex-basis: 58.3333333333%; }
+
+  .large-8 {
+    flex-basis: 66.6666666667%; }
+
+  .large-9 {
+    flex-basis: 75%; }
+
+  .large-10 {
+    flex-basis: 83.3333333333%; }
+
+  .large-11 {
+    flex-basis: 91.6666666667%; }
 
   /*----------- FOOTER --------------*/ }
 /* end of media query */
