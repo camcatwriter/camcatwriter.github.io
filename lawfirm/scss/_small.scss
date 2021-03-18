@@ -15,21 +15,21 @@ body {
 
 /*----------- HEADER --------------*/
 div#headerWrapper {
-    border-top: 10px #444 solid;
-    background-color: #ddd;
+    border-top: 7px #A15E15 solid;
+    background-color: #553819;
 }
 
 header {
     padding: .5rem 2%;
     
 }
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
-
+header h1 {margin: 0; color: #ddd;}
+header h2 {margin: 0; font-weight: normal; color: #ddd;}
+input.search {float: right;}
 /*----------- NAVIGATION --------------*/
 div#navWrapper {
-    background-color: #bbbbbb;
-
+    background-color: #A15E15;
+    // max-width: 75rem;
 }
 
 // nav {
@@ -37,7 +37,7 @@ div#navWrapper {
 // }
 
 
-nav a:hover {background-color: #444444;}
+nav a:hover {background-color: #ffcf9d;}
 
 
 nav ul {
@@ -52,8 +52,8 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    background-color: #bbbbbb;
-    color: #111;
+    background-color: #A15E15;
+    color: #ddd;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -62,12 +62,12 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
+    background-color: #ffcf9d;
+    color: #111;
 }
 nav ul li.active a {
-    background-color: #000;
-    color: #fff;
+    background-color: #ffcf9d;
+    color: #111;
 }
 
 
@@ -128,21 +128,6 @@ main {
             background-color: lighten(#888, 10%);
         }
     }//end of card
-
-    div.card:hover img {
-        animation: bounce 2s 1;
-    }
-    img {
-        position: relative;
-    }
-
-    @keyframes bounce {
-        0% {bottom: 0px; animation-timing-function: ease-out;}
-        25% {bottom: 60px; animation-timing-function: ease-in;}
-        50% {bottom: 0px; animation-timing-function: ease-out;}
-        75% {bottom: 30px; animation-timing-function: ease-in;}
-        100% {bottom: 0px;}
-    }
 }
 
 

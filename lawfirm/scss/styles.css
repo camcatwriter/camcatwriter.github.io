@@ -321,25 +321,30 @@ body {
 
 /*----------- HEADER --------------*/
 div#headerWrapper {
-  border-top: 10px #444 solid;
-  background-color: #ddd; }
+  border-top: 7px #A15E15 solid;
+  background-color: #553819; }
 
 header {
   padding: .5rem 2%; }
 
 header h1 {
-  margin: 0; }
+  margin: 0;
+  color: #ddd; }
 
 header h2 {
   margin: 0;
-  font-weight: normal; }
+  font-weight: normal;
+  color: #ddd; }
+
+input.search {
+  float: right; }
 
 /*----------- NAVIGATION --------------*/
 div#navWrapper {
-  background-color: #bbbbbb; }
+  background-color: #A15E15; }
 
 nav a:hover {
-  background-color: #444444; }
+  background-color: #ffcf9d; }
 
 nav ul {
   list-style-type: none;
@@ -352,8 +357,8 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  background-color: #bbbbbb;
-  color: #111;
+  background-color: #A15E15;
+  color: #ddd;
   padding: .5rem 0;
   text-decoration: none;
   font-size: .9rem;
@@ -363,12 +368,12 @@ nav ul li:first-child a {
   border-left: none; }
 
 nav ul li a:hover {
-  background-color: #eee;
-  color: #333; }
+  background-color: #ffcf9d;
+  color: #111; }
 
 nav ul li.active a {
-  background-color: #000;
-  color: #fff; }
+  background-color: #ffcf9d;
+  color: #111; }
 
 /*----------- MAIN --------------*/
 main {
@@ -407,25 +412,7 @@ main {
       border-radius: 10px; }
     main div.card a:hover {
       background-color: #a2a2a2; }
-  main div.card:hover img {
-    animation: bounce 2s 1; }
-  main img {
-    position: relative; }
-@keyframes bounce {
-  0% {
-    bottom: 0px;
-    animation-timing-function: ease-out; }
-  25% {
-    bottom: 60px;
-    animation-timing-function: ease-in; }
-  50% {
-    bottom: 0px;
-    animation-timing-function: ease-out; }
-  75% {
-    bottom: 30px;
-    animation-timing-function: ease-in; }
-  100% {
-    bottom: 0px; } }
+
 /*----------- FOOTER --------------*/
 div#footerWrapper {
   background-color: #bbbbbb; }
@@ -443,24 +430,15 @@ footer {
 @media only screen and (min-width: 35rem) {
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
-  div#headerWrapper {
-    background-color: #555; }
-
-  header h2 {
-    color: #000; }
-
+  /*div#headerWrapper {
+      background-color: #555;
+  }*/
   /*----------- NAVIGATION --------------*/
   nav ul {
     margin-left: 2%; }
 
   nav ul li {
     width: auto; }
-
-  nav ul li:first-child a {
-    border-left: 1px solid #777; }
-
-  nav ul li:last-child a {
-    border-right: 1px solid #777; }
 
   nav ul li a {
     padding: .5rem 1rem; }
@@ -478,9 +456,9 @@ footer {
 
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
-  div#headerWrapper {
-    background-color: #555; }
-
+  /*div#headerWrapper {
+          background-color: #555;
+      }*/
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   main div.card {
