@@ -16,7 +16,7 @@ body {
 /*----------- HEADER --------------*/
 div#headerWrapper {
     border-top: 7px #A15E15 solid;
-    background-color: #553819;
+    background-color: #522A00;
 }
 
 header {
@@ -87,7 +87,7 @@ main {
 
     button {
         display: block;
-        background-color: #553819;
+        background-color: #522A00;
         color: #f8daba;
         padding: .5rem;
         margin-bottom: .5rem;
@@ -97,7 +97,7 @@ main {
         width: 100%
     }
     button:hover {
-        background-color: lighten(#553819, 10%);
+        background-color: lighten(#522A00, 10%);
     }
     button.cta {
         margin: .5rem 0;
@@ -107,11 +107,11 @@ main {
     
     div.card1 {
         margin: 1rem 0;
-        border: 1px solid #553819;
+        border: 1px solid #522A00;
         background-color: #f8daba;
         section {
             background-color: #f8daba;
-            border-bottom: 2px solid #553819;
+            border-bottom: 2px solid #522A00;
             color: #111;
             padding: 1rem 0;
             text-align: center; 
@@ -144,7 +144,7 @@ main {
         }
         button{
             background-color: #ffcf9d;
-            color: #553819;
+            color: #522A00;
             border-radius: 0;
             border: none;
         }
@@ -152,7 +152,7 @@ main {
 
     a{
         text-decoration: none;
-        color: #553819;
+        color: #522A00;
     }
 }
 
@@ -160,7 +160,7 @@ main {
 /*----------- FOOTER --------------*/
 div#footerWrapper {
      background-color: #ffcf9d;
-     border-top: 2px #553819 solid;
+     border-top: 2px #522A00 solid;
 }
 
 footer {
