@@ -15,16 +15,16 @@ body {
 
 /*----------- HEADER --------------*/
 div#headerWrapper {
-    border-top: 7px #A15E15 solid;
-    background-color: #522A00;
+    border-top: 7px $medium solid;
+    background-color: $dark;
 }
 
 header {
     padding: .5rem 2%;
     
 }
-header h1 {margin: 0; color: #fce9cf;}
-header h2 {margin: 0; font-weight: normal; color: #fce9cf;}
+header h1 {margin: 0; color: $lightest;}
+header h2 {margin: 0; font-weight: normal; color: $lightest;}
 input.search {float: right; margin: .5rem 0 0 0;}
 /*----------- NAVIGATION --------------*/
 /*div#navWrapper {
@@ -36,8 +36,8 @@ input.search {float: right; margin: .5rem 0 0 0;}
     
 // }
 
-nav {background-color: #A15E15;}
-nav a:hover {background-color: #fce9cf;}
+nav {background-color: $medium;}
+nav a:hover {background-color: $lightest;}
 
 
 nav ul {
@@ -49,8 +49,8 @@ nav ul {
 
 nav ul li a {
     display: block;
-    background-color: #A15E15;
-    color: #fce9cf;
+    background-color: $medium;
+    color: $lightest;
     padding: .5rem;
     text-decoration: none;
     font-size: 1.2rem;
@@ -58,12 +58,12 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: #ffcf9d;
-    color: #111;
+    background-color: $lightest;
+    color: $dark;
 }
 nav ul li.active a {
-    background-color: #ffcf9d;
-    color: #111;
+    background-color: $light;
+    color: $dark;
 }
 
 
@@ -87,17 +87,17 @@ main {
 
     button {
         display: block;
-        background-color: #522A00;
-        color: #fce9cf;
+        background-color: $dark;
+        color: $lightest;
         padding: .5rem;
         margin-bottom: .5rem;
         text-decoration: none;
-        border: 1px #A15E15 solid;
+        border: 1px $medium solid;
         border-radius: $cbr;
         width: 100%
     }
     button:hover {
-        background-color: lighten(#522A00, 10%);
+        background-color: lighten($dark, 10%);
     }
     button.cta {
         margin: .5rem 0;
@@ -107,12 +107,12 @@ main {
     
     div.card1 {
         margin: 1rem 0;
-        border: 1px solid #522A00;
-        background-color: #fce9cf;
+        border: .5px solid $dark;
+        background-color: $lightest;
         section {
-            background-color: #fce9cf;
-            border-bottom: 2px solid #522A00;
-            color: #111;
+            background-color: $lightest;
+            border-bottom: 2px solid $dark;
+            color: $dark;
             padding: 1rem 0;
             text-align: center; 
         }//end of section
@@ -128,23 +128,22 @@ main {
     }
     
     .end {
-            // border: 1px #A15E15 solid;
             margin-top: .5rem;
             margin-bottom: .5rem;
             padding-bottom: .5rem;
-            background-color: lighten($color: #fce9cf, $amount: 5%) ;
+            background-color: lighten($color: $lightest, $amount: 5%) ;
     }
 
     .blog {
         margin-top: .5rem;
-        background-color: #fce9cf;
+        background-color: $light;
         
         h2{
             margin-top: 0;
         }
         button{
-            background-color: #ffcf9d;
-            color: #522A00;
+            background-color: $lightest;
+            color: $dark;
             border-radius: 0;
             border: none;
         }
@@ -152,15 +151,15 @@ main {
 
     a{
         text-decoration: none;
-        color: #522A00;
+        color: $dark;
     }
 }
 
 
 /*----------- FOOTER --------------*/
 div#footerWrapper {
-     background-color: #fce9cf;
-     border-top: 2px #522A00 solid;
+     background-color: $lightest;
+     border-top: 2px $dark solid;
 }
 
 footer {
@@ -171,7 +170,7 @@ footer {
         text-decoration: none;
         font-size: 2rem;
         padding: 0 8%;
-        color: #A15E15;
+        color: $medium;
     }
 }
 

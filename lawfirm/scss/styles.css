@@ -368,12 +368,12 @@ nav ul li:first-child a {
   border-left: none; }
 
 nav ul li a:hover {
-  background-color: #ffcf9d;
-  color: #111; }
+  background-color: #fce9cf;
+  color: #522A00; }
 
 nav ul li.active a {
   background-color: #ffcf9d;
-  color: #111; }
+  color: #522A00; }
 
 /*----------- MAIN --------------*/
 main {
@@ -428,12 +428,12 @@ main {
     padding: 1.5rem; }
   main div.card1 {
     margin: 1rem 0;
-    border: 1px solid #522A00;
+    border: 0.5px solid #522A00;
     background-color: #fce9cf; }
     main div.card1 section {
       background-color: #fce9cf;
       border-bottom: 2px solid #522A00;
-      color: #111;
+      color: #522A00;
       padding: 1rem 0;
       text-align: center; }
     main div.card1 img {
@@ -448,11 +448,11 @@ main {
     background-color: #fef4e7; }
   main .blog {
     margin-top: .5rem;
-    background-color: #fce9cf; }
+    background-color: #ffcf9d; }
     main .blog h2 {
       margin-top: 0; }
     main .blog button {
-      background-color: #ffcf9d;
+      background-color: #fce9cf;
       color: #522A00;
       border-radius: 0;
       border: none; }
