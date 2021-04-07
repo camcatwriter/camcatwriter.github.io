@@ -10,7 +10,8 @@ header img {
 
 nav {
     background-color: #aa0000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
 }
 
 nav button {
@@ -47,6 +48,10 @@ nav ul li a:hover {
 
 nav ul.hide {
     display: none;
+}
+
+main {
+    font-family: 'Newsreader', serif;
 }
 
 div.storyGrid {
