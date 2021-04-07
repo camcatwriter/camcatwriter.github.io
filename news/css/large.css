@@ -5,4 +5,13 @@
         padding: .6rem 1rem;
     }
 
+    div.storyGrid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    div.storyGrid .lead {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 2;
+    }
+
 } /*end large */

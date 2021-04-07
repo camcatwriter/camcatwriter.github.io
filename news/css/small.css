@@ -46,6 +46,32 @@ nav ul.hide {
     display: none;
 }
 
+div.storyGrid {
+    display: grid;
+    margin: 0 2vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+div.storyGrid span {
+    display: block;
+    text-align: center;
+    font-size: .75rem;
+}
+
+.teaser, .lead {
+    padding: .5rem 2vw;
+}
+
+.teaser img, .lead img {
+    width: 100%;
+}
+
+.lead {
+    grid-column: 1 / span 2;
+}
+
 .clearfix:after {
     content: "";
     display: table;
