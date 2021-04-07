@@ -4,6 +4,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+header img {
+    margin: 2%;
+}
 
 nav {
     background-color: #aa0000;
