@@ -1,0 +1,1 @@
+@media only screen and (min-width:80rem){nav ul li a{padding:.6rem 1rem}div.storyGrid{grid-template-columns:1fr 1fr 1fr 1fr}div.storyGrid .lead{grid-column:1/span 3;grid-row:1/span 2}}
