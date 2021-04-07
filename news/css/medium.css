@@ -18,7 +18,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef2f2f', end
     }
 
     nav ul {
-        
+
         margin-left: 2%;
     }
 
@@ -46,6 +46,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef2f2f', end
 
     div.storyGrid .lead {
         grid-column: 1 / span 3;
+    }
+
+    footer div.links {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
 
 } /*end medium */

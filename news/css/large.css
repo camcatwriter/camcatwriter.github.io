@@ -14,4 +14,10 @@
         grid-row: 1 / span 2;
     }
 
+    footer div.links {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+
 } /*end large */
