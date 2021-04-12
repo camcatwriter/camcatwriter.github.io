@@ -59,6 +59,13 @@ main {
     min-height: 10rem;
 }
 
+picture {
+    position: relative;
+}
+picture div {
+    position: absolute;
+    bottom: 0;
+}
 
 /*----------- FOOTER --------------*/
 footer {

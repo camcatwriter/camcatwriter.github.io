@@ -371,6 +371,13 @@ main {
   padding: 0 2%;
   min-height: 10rem; }
 
+picture {
+  position: relative; }
+
+picture div {
+  position: absolute;
+  bottom: 0; }
+
 /*----------- FOOTER --------------*/
 footer {
   background-color: #ddd;
