@@ -45,7 +45,9 @@
 <!-- CONTENT HERE -->
     <main>
         <div class="my_slider">
-            <div></div>
+            <div>
+                <img>
+            </div>
             <div></div>
             <div></div>        
         </div>
@@ -55,9 +57,22 @@
     
 <!-- FOOTER HERE -->   
     <footer>
-        &copy; 2021 &bull; Boston City &bull; Cam Stephens &bull; 123-555-6789 &bull; Login
+        &copy; 2021 &bull; Cam Stephens &bull; Login
     </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.my_slider').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 1000,
+            cssEase: 'ease-out',
+            autoplay: true,
+            autoplaySpeed: 30000
+        });
+    });
+</script>
 </body>
 </html>
