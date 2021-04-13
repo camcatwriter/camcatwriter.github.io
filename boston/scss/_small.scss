@@ -85,42 +85,57 @@ div.my_slider {
 }
 
 div.cards {
-    picture {
-    position: relative;
-}
-picture div {
-    position: absolute;
-    bottom: 0;
-}
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
 
 div:nth-child(1) {
     background-image: url("../images/hover01.jpg");
     background-repeat: no-repeat;
+    background-size: 560px;
 }
 
 div:nth-child(2) {
     background-image: url("../images/hover02.jpg");
     background-repeat: no-repeat;
+    background-size: 560px;
+
 }
 
 div:nth-child(3) {
     background-image: url("../images/hover03.jpg");
     background-repeat: no-repeat;
+    background-size: 560px;
+
 }
 
 div:nth-child(4) {
     background-image: url("../images/hover04.jpg");
     background-repeat: no-repeat;
+    background-size: 560px;
+
 }
 
 div a{
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 300px;
     text-decoration: none;
     padding: 0 2%;
     transition: all .5s ease-in;
     color: white;
+    text-align: center;
+
+    i {
+        font-size: 5rem;
+        margin-top: 90px;
+    }
 }
 
 div:nth-child(1) a{

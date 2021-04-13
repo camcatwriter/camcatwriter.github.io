@@ -18,8 +18,31 @@
 
 
 /*----------- MAIN --------------*/
+div.cards {
 
+div {
+    width: 50%;
+}
 
+div:nth-child(1) {
+    background-size: 512px;
+}
+
+div:nth-child(2) {
+    background-size: 512px;
+
+}
+
+div:nth-child(3) {
+    background-size: 512px;
+
+}
+
+div:nth-child(4) {
+    background-size: 512px;
+
+}
+}
 
 /*----------- FOOTER --------------*/
     
