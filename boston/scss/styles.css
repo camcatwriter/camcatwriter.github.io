@@ -399,7 +399,13 @@ div a {
   transition: all .5s ease-in; }
 
 div:nth-child(1) a {
-  background-color: #3055b4; }
+  background-color: #7f30b4; }
+
+div:nth-child(2) a {
+  background-color: #be1b1b; }
+
+div:nth-child(4) a {
+  background-color: #1b7daa; }
 
 div a:hover {
   background: none;
@@ -535,7 +541,7 @@ footer {
         width: 20px;
         height: 20px;
         font-family: "slick";
-        font-size: 6px;
+        font-size: 30px;
         line-height: 20px;
         text-align: center;
         color: black;
