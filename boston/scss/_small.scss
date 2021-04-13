@@ -15,7 +15,9 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
+    height: 10rem;
     background-color: #ddd;
+    background-image: url("../images/header3.jpg");
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
@@ -59,6 +61,10 @@ main {
     min-height: 10rem;
 }
 
+div picture img {
+    width: 100vw;
+}
+
 picture {
     position: relative;
 }
@@ -67,50 +73,38 @@ picture div {
     bottom: 0;
 }
 
-section:nth-child(1) {
+div.cards {
+    picture {
+    position: relative;
+}
+picture div {
+    position: absolute;
+    bottom: 0;
+}
+
+div:nth-child(1) {
     background-image: url("../images/hover01.jpg");
+    background-repeat: no-repeat;
 }
 
-section:nth-child(2) {
-    background-image: url("../images/hover02.jpg");
-}
-
-section:nth-child(3) {
-    background-image: url("../images/hover03.jpg");
-}
-
-section:nth-child(4) {
-    background-image: url("../images/hover04.jpg");
-}
-
-section a {
+div a{
     display: block;
     width: 100%;
     height: 300px;
     text-decoration: none;
     padding: 0 2%;
     transition: all .5s ease-in;
+    color: white;
 }
 
-section:nth-child(1) a{
-    background-color: #7f30b4;
+div:nth-child(1) a{
+    background-color: #2d4cb1;
 }
 
-section:nth-child(2) a{
-    background-color: #be1b1b;
-}
-
-section:nth-child(3) a{
-    background-color: #17b831;
-}
-
-section:nth-child(4) a{
-    background-color: #1b7daa;
-}
-
-section a:hover {
+div a:hover {
     background: none;
     text-shadow: 0 0 4px black;
+}
 }
 
 /*----------- FOOTER --------------*/
