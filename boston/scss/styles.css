@@ -338,17 +338,27 @@ header h2 {
 nav {
   background-color: #003566; }
 
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: white; }
+
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0; }
 
+nav ul.hide {
+  display: none; }
+
 nav ul li {
-  float: left;
-  width: 25%; }
+  width: 100%; }
 
 nav ul li a {
   display: block;
+  width: 100%;
   background-color: #216fb8;
   color: #eee;
   border-left: 1px solid #777;
@@ -676,6 +686,15 @@ footer {
     background: -webkit-linear-gradient(top, #216fb8 0%, #003566 100%);
     background: linear-gradient(to bottom, #216fb8 0%, #003566 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#216fb8', endColorstr='#003566',GradientType=0 ); }
+
+  nav ul.hide {
+    display: block; }
+
+  nav ul li {
+    float: left; }
+
+  nav button {
+    display: none; }
 
   /*----------- MAIN --------------*/
   div.cards div {
