@@ -371,8 +371,12 @@ main {
   padding: 0 2%;
   min-height: 10rem; }
 
+div.my_slider {
+  width: max-content; }
+
 picture {
-  position: relative; }
+  position: relative;
+  width: 100%; }
 
 picture div {
   position: absolute;
@@ -380,6 +384,15 @@ picture div {
 
 div:nth-child(1) {
   background-image: url("../images/hover01.jpg"); }
+
+div:nth-child(2) {
+  background-image: url("../images/hover02.jpg"); }
+
+div:nth-child(3) {
+  background-image: url("../images/hover03.jpg"); }
+
+div:nth-child(4) {
+  background-image: url("../images/hover04.jpg"); }
 
 div a {
   display: block;
