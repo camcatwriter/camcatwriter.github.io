@@ -325,7 +325,7 @@ header {
   padding: .5rem 2%;
   height: 10rem;
   background-color: #ddd;
-  background-image: url("../images/header3.jpf"); }
+  background-image: url("../images/header3.jpg"); }
 
 header h1 {
   margin: 0; }
@@ -406,19 +406,19 @@ div.cards {
     width: 100%;
     flex-wrap: wrap; }
   div.cards div:nth-child(1) {
-    background-image: url("../images/hover01.jpf");
+    background-image: url("../images/hover01.jpg");
     background-repeat: no-repeat;
     background-size: 560px; }
   div.cards div:nth-child(2) {
-    background-image: url("../images/hover02.jpf");
+    background-image: url("../images/hover02.jpg");
     background-repeat: no-repeat;
     background-size: 560px; }
   div.cards div:nth-child(3) {
-    background-image: url("../images/hover03.jpf");
+    background-image: url("../images/hover03.jpg");
     background-repeat: no-repeat;
     background-size: 560px; }
   div.cards div:nth-child(4) {
-    background-image: url("../images/hover04.jpf");
+    background-image: url("../images/hover04.jpg");
     background-repeat: no-repeat;
     background-size: 560px; }
   div.cards div a {
