@@ -16,6 +16,14 @@
     nav ul li:last-child a {border-right: 1px solid #777;}
     nav ul li a{padding: .5rem 1rem;}
 
+    nav {
+        background: #216fb8;
+        background: -moz-linear-gradient(top,  #216fb8 0%, #003566 100%);
+        background: -webkit-linear-gradient(top,  #216fb8 0%,#003566 100%);
+        background: linear-gradient(to bottom,  #216fb8 0%,#003566 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#216fb8', endColorstr='#003566',GradientType=0 );
+        
+            }
     
 
 
