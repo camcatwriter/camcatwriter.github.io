@@ -16,6 +16,12 @@
 
 /*----------- NAVIGATION --------------*/
 
+#primaryNav.open ul > li {
+    display: block;
+    float: left;
+    list-style: none;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
 
 
 /*----------- MAIN --------------*/
