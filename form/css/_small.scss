@@ -8,7 +8,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Antonio', sans-serif;
 }
 
 
@@ -180,6 +180,9 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 form label.top input:required {
