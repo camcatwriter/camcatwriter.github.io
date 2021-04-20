@@ -15,14 +15,16 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: lighten($color: $menuColor, $amount: 5%);
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+        width: 100%;
+        height: auto;
+        background-color: $menuColor;
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -31,9 +33,18 @@ nav {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+i {
+    font-size: 1.5rem; font-style: normal;
+    margin: .2rem .1rem;
+}
+
 #primaryNav {
     height: 0;
     overflow: hidden;
+	background-color: $menuColor;
+    margin: 0;
+    padding: 0;
+	z-index: 998;
 }
 
 #primaryNav.open {
@@ -43,7 +54,7 @@ nav {
 #primaryNav li.parent > a::after {
     content: "\25BC";
     font-size: .75rem;
-    color: rgba(255, 255, 255, 0.5);
+    // color: rgba(255, 255, 255, 0.5);
     float: right;
 }
 
@@ -54,7 +65,6 @@ nav {
 }
 
 #primaryNav li ul a {
-    border-top: solid 1px rgba(0,0,0,0.2);
     font-size: 12px;
     padding: 10px 5%;
     font-weight: normal;
@@ -76,9 +86,7 @@ nav ul li {
 nav ul li a {
     display: block;
     width: 100%;
-    background-color: #444;
-    color: #eee;
-    border-left: 1px solid #777;
+    color: $menuTextColor;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -87,12 +95,12 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: $menuTextColor;
 }
 nav ul li.active a {
-    background-color: #000;
-    color: #fff;
+    background-color: $menuColor;
+    color: $menuTextColor;
 }
 /*----------- MAIN --------------*/
 main {
@@ -104,13 +112,13 @@ main {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #000;
+    border: 1px solid $menuTextColor;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend{
-    color: #666;
+    color: rgba(0, 0, 0, 0.7);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -118,7 +126,7 @@ form legend{
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #888;
+    color: rgba(0,0,0,0.5);
     font-size: .8rem;
 }
 
@@ -126,10 +134,10 @@ form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #333;
-    border-radius: 4px;
+    border: none;
+    border-radius: 6px;
     padding: .75rem;
-    color: #444;
+    color: rgba(0,0,0,.5);
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
@@ -138,12 +146,12 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0%;
-    color: #444;
+    color: rgba(0,0,0,.7);
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #555;
+    background-color: rgba(0,0,0,.8);
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -162,7 +170,7 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: rgba(0,0,0,.4);
     padding: .5rem 2%;
     text-align: center;
 }
