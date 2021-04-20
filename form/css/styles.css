@@ -408,12 +408,12 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: .5rem 2%;
-  background-color: #b8eeb8; }
+  background-color: #cef9ce; }
 
 header h1 {
   margin: 0;
   display: block;
-  color: #0e640e; }
+  color: #073807; }
 
 header img {
   display: block;
@@ -424,7 +424,7 @@ header img {
 nav {
   width: 100%;
   height: auto;
-  background-color: #7adf7a; }
+  background-color: #8af18a; }
 
 #hamburgerBtn span:nth-child(1) {
   display: block; }
@@ -443,9 +443,9 @@ nav {
   margin: 0 2%;
   width: 6rem;
   height: 2.5rem;
-  background: rgba(0, 0, 0, 0.1);
-  color: #0e640e;
-  border: 1px solid #0e640e;
+  background: rgba(255, 255, 255, 0.6);
+  color: #073807;
+  border: 1px solid #073807;
   border-radius: 10px;
   font-weight: normal;
   text-align: center; }
@@ -456,7 +456,7 @@ nav {
 #primaryNav {
   height: 0;
   overflow: hidden;
-  background-color: #7adf7a;
+  background-color: #8af18a;
   margin: 0;
   padding: 0;
   z-index: 998;
@@ -467,21 +467,21 @@ nav {
   margin: 1rem 2%; }
 
 a {
-  color: #0e640e; }
+  color: #073807; }
 
 #primaryNav li {
   text-align: center;
   padding: 1rem; }
 
 #primaryNav li.active {
-  background-color: #51d551; }
+  background-color: #5cec5c; }
 
 #primaryNav li:hover {
   background: rgba(255, 255, 255, 0.5); }
 
 #primaryNav li ul {
   display: none;
-  background-color: #51d551;
+  background-color: #5cec5c;
   padding: 0;
   float: none;
   width: 100%;
@@ -521,7 +521,7 @@ main {
 /*----------- FORM --------------*/
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #0e640e;
+  border: 1px solid #073807;
   border-radius: 10px;
   padding: .5rem 2%; }
 
@@ -560,8 +560,8 @@ form label.sbs input[type=radio] {
 
 form input.submitBtn {
   border: none;
-  color: #083708;
-  background-color: #7adf7a;
+  color: #010b01;
+  background-color: #8af18a;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
   margin: 0 0 2rem 2%;
@@ -579,10 +579,10 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #b8eeb8;
+  background-color: #cef9ce;
   padding: .5rem 2%;
   text-align: center;
-  color: #0e640e; }
+  color: #073807; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -617,7 +617,7 @@ footer {
   nav ul li a {
     display: block;
     width: 100%;
-    color: #0e640e;
+    color: #073807;
     padding: .5rem 1rem;
     text-decoration: none;
     font-size: .9rem;
@@ -629,11 +629,11 @@ footer {
     border-left: none; }
 
   nav ul li.active a {
-    color: #0e640e; }
+    color: #073807; }
 
   nav ul li:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    color: #0e640e; }
+    color: #073807; }
 
   #primaryNav {
     margin: 0; }
@@ -671,7 +671,7 @@ footer {
   ul li ul {
     z-index: 99;
     position: absolute;
-    background-color: #a3e9a3;
+    background-color: #b8f6b8;
     left: -999rem;
     /* pushes the menu way off to the side */ }
 
@@ -691,7 +691,7 @@ footer {
   /*----------- HEADER --------------*/
   /*----------- NAVIGATION --------------*/
   nav {
-    background-color: #7adf7a; }
+    background-color: #8af18a; }
     nav ul {
       margin-left: 2%; }
     nav ul li {
@@ -724,7 +724,7 @@ footer {
     nav ul li ul {
       z-index: 99;
       position: absolute;
-      background-color: #a3e9a3;
+      background-color: #b8f6b8;
       left: -999rem;
       /* pushes the menu way off to the side */
       width: 10rem; }
