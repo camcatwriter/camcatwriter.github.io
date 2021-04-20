@@ -56,67 +56,78 @@ nav {
 #primaryNav {
     height: 0;
     overflow: hidden;
-	background-color: $menuColor;
+    background-color: $menuColor;
     margin: 0;
     padding: 0;
-	z-index: 998;
+    z-index: 998;
+    float: none;
 }
 
 #primaryNav.open {
     height: auto;
+    margin: 1rem 2%;
+    
 }
 
-#primaryNav li.parent > a::after {
-    content: "\25BC";
-    font-size: .75rem;
-    // color: rgba(255, 255, 255, 0.5);
-    float: right;
+a{
+    color: $menuTextColor;
+}
+
+#primaryNav li {
+    text-align: center;
+    padding: 1rem;
+}
+
+#primaryNav li.active {
+    background-color: darken($color: $menuColor, $amount: 10%);
+}
+
+#primaryNav li:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 #primaryNav li ul {
     display: none;
-    background: rgba(0,0,0,.3);
-	padding: 0;
+    background-color: darken($color: $menuColor, $amount: 10%);
+    padding: 0;
+    float: none;
+    width: 100%;
+    list-style-type: none;
+}
+
+#primaryNav.open ul li {
+    width: 100%;
+    padding: .5rem;
+}
+
+#primaryNav.open ul li:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#primaryNav li ul li a {
+    width: 100%;
+    padding: .5rem;
+}
+
+li a {
+    text-decoration: none;
+    width: 100vw;
 }
 
 #primaryNav li ul a {
     font-size: 12px;
-    padding: 10px 5%;
     font-weight: normal;
 }
 
 #primaryNav li:hover ul {
     display: block;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    float: left;
-    width: 25%;
-}
-nav ul li a {
-    display: block;
     width: 100%;
-    color: $menuTextColor;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
 }
-nav ul li:first-child a {border-left: none;}
 
-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: $menuTextColor;
+nav ul li ul {
+    margin: .5rem 0;
 }
-nav ul li.active a {
-    background-color: $menuColor;
-    color: $menuTextColor;
-}
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;

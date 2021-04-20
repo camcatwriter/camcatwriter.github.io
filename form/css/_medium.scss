@@ -11,12 +11,98 @@
 
 
 /*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
-    nav ul li {width: auto;}
-    // nav ul li:first-child a {border-left: 1px solid #777;}
-    // nav ul li:last-child a {border-right: 1px solid #777;}
-    nav ul li a{padding: .5rem 1rem;}
+#hamburgerBtn {
+    display: none;
+}
 
+#primaryNav {
+    height: auto;
+    li.active ul {
+        width: auto;
+    }
+}
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+        width: auto;
+    }
+    nav ul li a {
+        display: block;
+        width: 100%;
+        color: $menuTextColor;
+        padding: .5rem 1rem;
+        text-decoration: none;
+        font-size: .9rem;
+        text-align: center;
+        -webkit-transition: background 0.3s linear; 
+		transition: background 0.3s linear;
+    }
+    nav ul li:first-child a {border-left: none;}
+    
+    nav ul li.active a {
+        // background-color: darken($color: $menuColor, $amount: 5%);
+        color: $menuTextColor;
+    }
+
+    nav ul li:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: $menuTextColor;
+    }
+    #primaryNav{
+        margin: 0;
+        ul li {
+            width: 10em;
+        }
+        li ul {
+            width: auto;
+        }
+    }
+    #primaryNav {
+        margin: 0;
+        li {
+            padding: 0;
+        }
+        
+        ul li ul{
+            margin: 0;
+        }
+    }
+
+    #primaryNav li:hover ul {
+        display: block;
+    }
+
+    nav #primaryNav li ul {
+        display: none;
+        padding: 0;
+        margin: 0;
+        li a{
+            width: auto;
+        }
+    }
+
+    ul li:hover ul { /* this displays the menus as drop downs  */
+		left: auto;
+        margin-left: 0;
+        background-color: rgba(255, 255, 255, 0.2);
+	}
+    nav ul li ul li {
+        float: none;
+
+    }
+
+    ul li ul {
+        z-index:99;
+		position: absolute;
+		background-color: lighten($menuColor, 10%);
+		left: -999rem; /* pushes the menu way off to the side */
+		// width: 10rem; 
+    }
 
 /*----------- MAIN --------------*/
 
