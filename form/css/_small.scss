@@ -15,10 +15,14 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: lighten($color: $menuColor, $amount: 5%);
+    background-color: lighten($color: $menuColor, $amount: 15%);
 }
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
+header h1 {margin: 0; display: block; color: $menuTextColor;}
+header img {
+    display: block;
+    float: left;
+    margin: 0 2% 0 0;
+}
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -188,9 +192,10 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: rgba(0,0,0,.4);
+    background-color: lighten($color: $menuColor, $amount: 15%);
     padding: .5rem 2%;
     text-align: center;
+    color: $menuTextColor;
 }
 
 

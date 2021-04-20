@@ -408,14 +408,17 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: .5rem 2%;
-  background-color: #8fe48f; }
+  background-color: #b8eeb8; }
 
 header h1 {
-  margin: 0; }
-
-header h2 {
   margin: 0;
-  font-weight: normal; }
+  display: block;
+  color: #0e640e; }
+
+header img {
+  display: block;
+  float: left;
+  margin: 0 2% 0 0; }
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -571,9 +574,10 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #b8eeb8;
   padding: .5rem 2%;
-  text-align: center; }
+  text-align: center;
+  color: #0e640e; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
