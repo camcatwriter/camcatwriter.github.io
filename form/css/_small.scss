@@ -33,9 +33,20 @@ nav {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-i {
-    font-size: 1.5rem; font-style: normal;
-    margin: .2rem .1rem;
+#hamburgerBtn {
+    display: block;
+    margin: 0 2%;
+		width: 6rem;
+        height: 2.5rem;
+        background: rgba(0,0,0,.1);
+        color: $menuTextColor;
+        border: 1px solid $menuTextColor;
+        border-radius: 10px;
+        font-weight: normal;
+        text-align: center;
+        i {
+            font-size: 1.3rem; font-style: normal;
+        }
 }
 
 #primaryNav {
@@ -149,10 +160,17 @@ form label.sbs {
     color: rgba(0,0,0,.7);
 }
 
+form label.sbs input[type=radio] {
+    width: 1.5em;
+    height: 1rem;
+    vertical-align: middle;
+
+}
+
 form input.submitBtn {
     border: none;
-    background-color: rgba(0,0,0,.8);
-    color: white;
+    color: darken($color: $menuTextColor, $amount: 10%) ;
+    background-color: $primaryColor;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
