@@ -3,26 +3,24 @@
 
 /*----------- BODY --------------*/
 
-#pageWrapper {
+div#pageWrapper {
     grid-template-areas: 
         "header header"
         "navigation content"
         "footer footer";
+    grid-template-columns: 150px auto
 }
-header {grid-area: header;}
-nav {grid-area: navigation;}
-main {grid-area: content;}
-footer {grid-area: footer;}
 
 /*----------- HEADER --------------*/
 
 
 
 /*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
-    nav ul li {flex-basis: 25%;}
-    nav ul li a{padding: .5rem 1rem;}
 
+a.myjump {display: none;}
+nav {
+    height: auto;
+}
 
 /*----------- MAIN --------------*/
 
