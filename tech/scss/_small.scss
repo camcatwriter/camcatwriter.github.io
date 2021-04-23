@@ -46,7 +46,7 @@ a.myjump{
 
 nav {
     grid-area: navigation;
-    background-color: $primaryColor;
+    background-color: lighten($textColor, 10%);
     height: 100vh;
 }
 nav ul {
@@ -62,7 +62,7 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
     color: #fff;
     padding: .5rem 0;
     text-decoration: none;
@@ -72,11 +72,11 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.7);
     color: #000;
 }
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     color: #fff;
 }
 
