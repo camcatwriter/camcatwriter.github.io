@@ -24,11 +24,19 @@ nav {
 
 /*----------- MAIN --------------*/
 
-div img.right{
+img.right{
+    display: block;
     float: right;
+    width: 31%;
+    clear: both;
+    margin: 1%;
 }
-div img.left{
+img.left{
+    display: block;
     float: left;
+    width: 31%;
+    clear: both;
+    margin: 1%;
 }
 
 /*----------- FOOTER --------------*/

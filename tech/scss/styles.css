@@ -427,11 +427,19 @@ footer {
     height: auto; }
 
   /*----------- MAIN --------------*/
-  div img.right {
-    float: right; }
+  img.right {
+    display: block;
+    float: right;
+    width: 31%;
+    clear: both;
+    margin: 1%; }
 
-  div img.left {
-    float: left; }
+  img.left {
+    display: block;
+    float: left;
+    width: 31%;
+    clear: both;
+    margin: 1%; }
 
   /*----------- FOOTER --------------*/ }
 /* end of media query */
