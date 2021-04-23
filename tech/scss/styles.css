@@ -322,7 +322,7 @@ div#pageWrapper {
 /*----------- BODY --------------*/
 body {
   font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: 'Catamaran', sans-serif;
   color: #0b5613; }
 
 /*----------- HEADER --------------*/
@@ -427,6 +427,12 @@ footer {
     height: auto; }
 
   /*----------- MAIN --------------*/
+  div img.right {
+    float: right; }
+
+  div img.left {
+    float: left; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 @media only screen and (min-width: 64rem) {
