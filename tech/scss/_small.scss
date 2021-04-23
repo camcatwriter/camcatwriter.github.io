@@ -4,14 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-
-/*----------- BODY --------------*/
-body {
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
-}
-
-#pageWrapper {
+div#pageWrapper {
     display: grid;
     grid-template-areas: 
         "hamburger"
@@ -21,14 +14,16 @@ body {
         "navigation";
     grid-template-columns: 100%;
 }
-header {grid-area: header;}
-nav {grid-area: navigation;}
-main {grid-area: content;}
-footer {grid-area: footer;}
-div#hamburger{grid-area: hamburger;}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
 
 /*----------- HEADER --------------*/
 header {
+    grid-area: header;
     padding: .5rem 2%;
     background-color: #ffa8f0;
     h1 {margin: 0;}
@@ -49,6 +44,7 @@ a.myjump{
 }
 
 nav {
+    grid-area: navigation;
     background-color: #b68aff;
 }
 nav ul {
@@ -85,12 +81,14 @@ nav ul li.active a {
 
 /*----------- HAMBURGER --------------*/
 div#hamburger {
+    grid-area: hamburger;
     background-color: #feff98; 
 }
 
 
 /*----------- MAIN --------------*/
 main {
+    grid-area: content;
     padding: 0 2%;
     min-height: 10rem;
     background-color: #b8ddff;
@@ -101,6 +99,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
+    grid-area: footer;
     background-color: #b5ff98;
     padding: .5rem 2%;
     text-align: center;
