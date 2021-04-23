@@ -76,7 +76,7 @@ nav ul li a:hover {
     color: #000;
 }
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.8);
+    background-color: lighten($textColor, 10%);
     color: #fff;
 }
 
