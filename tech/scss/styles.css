@@ -454,6 +454,23 @@ footer {
     margin: auto; }
 
   /*----------- BODY --------------*/
+  #pageWrapper {
+    display: grid;
+    grid-template-areas: "header" "navigation" "content" "footer";
+    grid-template-columns: 100%; }
+
+  header {
+    grid-area: header; }
+
+  nav {
+    grid-area: navigation; }
+
+  main {
+    grid-area: content; }
+
+  footer {
+    grid-area: footer; }
+
   /*----------- HEADER --------------*/
   /*----------- NAVIGATION --------------*/
   nav ul li {
