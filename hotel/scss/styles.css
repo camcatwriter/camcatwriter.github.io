@@ -322,7 +322,8 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: .5rem 2%;
-  background-color: #ddd; }
+  background-color: #ddd;
+  width: 100%; }
 
 header h1 {
   margin: 0; }
@@ -333,26 +334,34 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 nav {
-  background-color: #666; }
+  background-color: #fffc61;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999; }
 
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: flex; }
 
 nav ul li {
-  float: left;
-  width: 25%; }
+  flex-basis: 33.3%; }
 
 nav ul li a {
   display: block;
+  width: 100%;
+  text-transform: uppercase;
   background-color: #444;
   color: #eee;
-  border-left: 1px solid #777;
   padding: .5rem 0;
   text-decoration: none;
   font-size: .9rem;
   text-align: center; }
+  nav ul li a i {
+    display: block;
+    font-size: 1.6rem; }
 
 nav ul li:first-child a {
   border-left: none; }
@@ -366,9 +375,51 @@ nav ul li.active a {
   color: #fff; }
 
 /*----------- MAIN --------------*/
+main h1 {
+  margin: .5rem 0; }
+
 main {
   padding: 0 2%;
   min-height: 10rem; }
+
+div div {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+div span {
+  padding-left: 1rem; }
+
+div span i {
+  float: left;
+  font-size: 1.5rem;
+  padding-top: .75rem; }
+
+div span p {
+  padding-left: 2rem; }
+
+div #inventoryWrapper {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+section {
+  background-color: #e1dc00;
+  margin-bottom: 1rem; }
+
+figure {
+  position: relative;
+  margin: 0; }
+  figure img {
+    width: 100%; }
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: 600;
+  padding: .5rem;
+  margin: .3rem 0; }
 
 /*----------- FOOTER --------------*/
 footer {
@@ -386,28 +437,22 @@ footer {
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
   /*----------- NAVIGATION --------------*/
-  nav ul {
-    margin-left: 2%; }
-
-  nav ul li {
-    width: auto; }
-
-  nav ul li:first-child a {
-    border-left: 1px solid #777; }
-
-  nav ul li:last-child a {
-    border-right: 1px solid #777; }
-
-  nav ul li a {
-    padding: .5rem 1rem; }
-
   /*----------- MAIN --------------*/
+  div#inventoryWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
+  section {
+    margin: .5rem; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 @media only screen and (min-width: 64rem) {
   header, nav, main, footer {
-    max-width: 64rem;
     margin: auto; }
+
+  main {
+    max-width: 75em; }
 
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
