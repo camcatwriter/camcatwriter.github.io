@@ -12,6 +12,7 @@ fetch(apiURL)
     
     let myImageTag = document.createElement("img");
     myImageTag.src = myList[i].photo;
+    myImageTag.alt = myList[i].name;
 
     console.log(myList[i].photo);
 
