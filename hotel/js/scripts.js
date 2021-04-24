@@ -10,6 +10,13 @@ fetch(apiURL)
     
     let myImageTag = document.createElement("img");
     myImageTag.src = myList[0].photo;
+
+    let myCaptionTag = document.createElement("figcaption");
+    myCaptionTag.textContent = myList[0].name;
+
+    let myFigureTag = document.createElement('figure');
+    myFigureTag.appendChild(myImageTag);
+    myFigureTag.appendChild(myCaptionTag);
     
 
     document.getElementById('inventoryWrapper').appendChild(myImageTag);
