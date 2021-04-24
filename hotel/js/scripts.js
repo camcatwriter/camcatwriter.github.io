@@ -10,10 +10,4 @@ fetch(apiURL)
     
     
     
-    
-    
-    
-    
-    
-    
 }); //end of "then" fat arrow function

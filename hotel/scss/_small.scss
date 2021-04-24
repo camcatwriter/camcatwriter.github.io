@@ -15,7 +15,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: $primaryColor;
     width: 100%;
 }
 header h1 {margin: 0;}
@@ -42,12 +42,13 @@ nav ul li a {
     display: block;
     width: 100%;
     text-transform: uppercase;
-    background-color: #444;
-    color: #eee;
+    background-color: rgba(255,255,255,0.2);
+    color: #000;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
+    font-weight: 600;
     i {
         display: block;
         font-size: 1.6rem;
@@ -56,12 +57,12 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
+    background-color: rgba(0,0,0,0.3);
+    color: #000;
 }
 nav ul li.active a {
-    background-color: #000;
-    color: #fff;
+    background-color: rgba(255,255,255,0.4);
+    color: #000;
 }
 /*----------- MAIN --------------*/
 main h1{
@@ -98,8 +99,9 @@ div #inventoryWrapper {
 }
 
 section {
-    background-color: darken($primaryColor, 25%);
+    background-color: $primaryColor;
     margin-bottom: 1rem;
+    padding: .5rem;
 }
 
 figure {
@@ -119,6 +121,10 @@ figcaption {
     font-weight: 600;
     padding: .5rem;
     margin: .3rem 0;
+}
+
+div#inventoryWrapper {
+    margin-bottom: 4.5rem;
 }
 
 /*----------- FOOTER --------------*/

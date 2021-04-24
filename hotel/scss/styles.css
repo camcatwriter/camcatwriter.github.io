@@ -322,7 +322,7 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: .5rem 2%;
-  background-color: #ddd;
+  background-color: #61a5ff;
   width: 100%; }
 
 header h1 {
@@ -334,7 +334,7 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 nav {
-  background-color: #fffc61;
+  background-color: #61a5ff;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -353,12 +353,13 @@ nav ul li a {
   display: block;
   width: 100%;
   text-transform: uppercase;
-  background-color: #444;
-  color: #eee;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000;
   padding: .5rem 0;
   text-decoration: none;
   font-size: .9rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: 600; }
   nav ul li a i {
     display: block;
     font-size: 1.6rem; }
@@ -367,12 +368,12 @@ nav ul li:first-child a {
   border-left: none; }
 
 nav ul li a:hover {
-  background-color: #eee;
-  color: #333; }
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #000; }
 
 nav ul li.active a {
-  background-color: #000;
-  color: #fff; }
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #000; }
 
 /*----------- MAIN --------------*/
 main h1 {
@@ -402,8 +403,9 @@ div #inventoryWrapper {
   grid-template-columns: 1fr; }
 
 section {
-  background-color: #e1dc00;
-  margin-bottom: 1rem; }
+  background-color: #61a5ff;
+  margin-bottom: 1rem;
+  padding: .5rem; }
 
 figure {
   position: relative;
@@ -420,6 +422,9 @@ figcaption {
   font-weight: 600;
   padding: .5rem;
   margin: .3rem 0; }
+
+div#inventoryWrapper {
+  margin-bottom: 4.5rem; }
 
 /*----------- FOOTER --------------*/
 footer {
@@ -440,7 +445,8 @@ footer {
   /*----------- MAIN --------------*/
   div#inventoryWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 4rem; }
 
   section {
     margin: .5rem; }
