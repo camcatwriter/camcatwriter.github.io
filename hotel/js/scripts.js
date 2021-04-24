@@ -25,7 +25,7 @@ fetch(apiURL)
 
     
 
-    document.getElementById('inventoryWrapper').appendChild(myImageTag);
+    document.getElementById("inventoryWrapper").appendChild(myImageTag);
     
     }
 
