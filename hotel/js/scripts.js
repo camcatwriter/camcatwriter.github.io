@@ -8,6 +8,10 @@ fetch(apiURL)
     //Once it comes back, display it to the console.
     console.log(myList);
     
+    let myImageTag = document.createElement("img");
+    myImageTag.src = "images/hotel01.jpg";
     
+
+    document.getElementById('inventoryWrapper').appendChild(myImageTag);
     
 }); //end of "then" fat arrow function
