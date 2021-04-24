@@ -7,18 +7,24 @@ fetch(apiURL)
   .then((myList) => {
     //Once it comes back, display it to the console.
     console.log(myList);
+
+    for (i = 0; i < myList.length; i++) {
     
     let myImageTag = document.createElement("img");
-    myImageTag.src = myList[0].photo;
+    myImageTag.src = myList[i].photo;
 
     let myCaptionTag = document.createElement("figcaption");
-    myCaptionTag.textContent = myList[0].name;
+    myCaptionTag.textContent = myList[i].name;
 
     let myFigureTag = document.createElement('figure');
     myFigureTag.appendChild(myImageTag);
     myFigureTag.appendChild(myCaptionTag);
+
+    myFigureTag.className = "happy"
     
 
     document.getElementById('inventoryWrapper').appendChild(myImageTag);
     
+    }
+
 }); //end of "then" fat arrow function
