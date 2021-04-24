@@ -54,12 +54,8 @@ fetch(apiURL)
     let bodySectionTag = document.createElement("section");
     bodySectionTag.appendChild(myFigureTag);
     bodySectionTag.appendChild(divisionInformationTag);
-    
-    // let gridDivTag = document.createElement("div");
-    // gridDivTag.
 
     document.getElementById("inventoryWrapper").appendChild(bodySectionTag);
-    
     }
 
 }); //end of "then" fat arrow function
