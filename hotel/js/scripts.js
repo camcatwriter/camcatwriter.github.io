@@ -16,11 +16,11 @@ fetch(apiURL)
     let myCaptionTag = document.createElement("figcaption");
     myCaptionTag.textContent = myList[i].name;
 
-    let myFigureTag = document.createElement('figure');
+    let myFigureTag = document.createElement("figure");
     myFigureTag.appendChild(myImageTag);
     myFigureTag.appendChild(myCaptionTag);
 
-    myFigureTag.className = "happy"
+    
     
 
     document.getElementById('inventoryWrapper').appendChild(myImageTag);
