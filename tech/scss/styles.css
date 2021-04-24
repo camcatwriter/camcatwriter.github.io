@@ -398,6 +398,9 @@ main {
     margin: 0;
     padding: .5rem 0; }
 
+main img {
+  width: 100%; }
+
 /*----------- FOOTER --------------*/
 footer {
   grid-area: footer;
@@ -427,6 +430,9 @@ footer {
     height: auto; }
 
   /*----------- MAIN --------------*/
+  main div p {
+    display: flow-root; }
+
   img.right {
     display: block;
     float: right;
@@ -459,6 +465,14 @@ footer {
       padding: .6rem 1rem; }
 
   /*----------- MAIN --------------*/
+  main div p {
+    display: block; }
+
+  main div h2 {
+    margin-bottom: 0;
+    clear: both;
+    padding-top: 1rem; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 

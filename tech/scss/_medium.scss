@@ -24,6 +24,10 @@ nav {
 
 /*----------- MAIN --------------*/
 
+main div p{
+    display: flow-root;
+}
+
 img.right{
     display: block;
     float: right;

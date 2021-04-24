@@ -29,7 +29,15 @@ nav ul li {
 
 
 /*----------- MAIN --------------*/
+main div p{
+        display: block;
+    }
 
+main div h2 {
+        margin-bottom: 0;
+        clear: both;
+        padding-top: 1rem;
+}
 
 
 /*----------- FOOTER --------------*/
