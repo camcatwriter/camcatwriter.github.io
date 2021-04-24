@@ -9,7 +9,7 @@ fetch(apiURL)
     console.log(myList);
     
     let myImageTag = document.createElement("img");
-    myImageTag.src = "./images/hotel01.jpg";
+    myImageTag.src = myList[0].photo;
     
 
     document.getElementById('inventoryWrapper').appendChild(myImageTag);
