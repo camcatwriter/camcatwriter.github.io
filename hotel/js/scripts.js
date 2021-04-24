@@ -23,12 +23,42 @@ fetch(apiURL)
     myFigureTag.appendChild(myImageTag);
     myFigureTag.appendChild(myCaptionTag);
 
+    let leftIconTag = document.createElement("i");
+    leftIconTag.className = "icon ion-md-car";
+
+    let topAddressTag = document.createElement("p");
+    topAddressTag.textContent = myList[i].address[0];
+
+    let bottomAddressTag = document.createElement("p");
+    bottomAddressTag.textContent = myList[i].address[1];
+
+    let rightIconTag = document.createElement("i");
+    rightIconTag.className = "icon ion-md-call";
+
+    let phoneNumberTag = document.createElement("p");
+    phoneNumberTag.textContent = myList[i].phone;
+
+    let leftSpanTag = document.createElement("span");
+    leftSpanTag.appendChild(leftIconTag);
+    leftSpanTag.appendChild(topAddressTag);
+    leftSpanTag.appendChild(bottomAddressTag);
+
+    let rightSpanTag = document.createElement("span");
+    rightSpanTag.appendChild(rightIconTag);
+    rightSpanTag.appendChild(phoneNumberTag);
+
+    let divisionInformationTag = document.createElement("div");
+    divisionInformationTag.appendChild(leftSpanTag);
+    divisionInformationTag.appendChild(rightSpanTag);
+
+    let bodySectionTag = document.createElement("section");
+    bodySectionTag.appendChild(myFigureTag);
+    bodySectionTag.appendChild(divisionInformationTag);
     
+    // let gridDivTag = document.createElement("div");
+    // gridDivTag.
 
-
-    
-
-    document.getElementById("inventoryWrapper").appendChild(myFigureTag);
+    document.getElementById("inventoryWrapper").appendChild(bodySectionTag);
     
     }
 
