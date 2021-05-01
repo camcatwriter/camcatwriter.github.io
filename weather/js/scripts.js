@@ -1,4 +1,4 @@
-const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=02111,us&appid=ed5cef8d7c6703faf7f59fa04deadba6&units=imperial"
+const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=98101,us&appid=ed5cef8d7c6703faf7f59fa04deadba6&units=imperial"
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -30,7 +30,7 @@ fetch(apiURL)
         myweekday[5] = "Friday";
         myweekday[6] = "Saturday";
 
-        
+
 
 
     });
