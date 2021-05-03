@@ -36,7 +36,47 @@
     </nav>
     <!--end navigation-->
     <main class="index">
-        
+        <div class="slider">
+            <picture>
+                <source srcset="images/cataractcanyonsmall.jpg" media="(max-width: 35rem)">
+                <source srcset="images/cataractcanyonwide.jpg" media="(min-width: 35rem)">
+                <img src="images/cataractcanyondef.jpg" alt="Cataract Canyon">
+                <div><b>Sunrise at the Big Drops in Cataract Canyon, photographed by NPS/Neal Herbert</b></div>
+            </picture>
+            <picture>
+                <source srcset="images/horseshoecanyonsmall.jpg" media="(max-width: 35rem)">
+                <source srcset="images/horseshoecanyonwide.jpg" media="(min-width: 35rem)">
+                <img src="images/horseshoecanyondef.jpg" alt="Horshoe Canyon">
+                <div><b>Fall colors in Horseshoe Canyon photographed by NPS/Neal Herbert</b></div>
+            </picture>
+            <picture>
+                <source srcset="images/islandsintheskysmall.jpg" media="(max-width: 35rem)">
+                <source srcset="images/islandsintheskywide.jpg" media="(min-width: 35rem)">
+                <img src="images/islandsintheskydef.jpg" alt="Islands in the Sky">
+                <div><b>A view from Green River Overlook photographed by NPS/Neal Herbert</b></div>
+            </picture>
+            <picture>
+                <source srcset="images/mazesmall.jpg" media="(max-width: 35rem)">
+                <source srcset="images/mazewide.jpg" media="(min-width: 35rem)">
+                <img src="images/mazedef.jpg" alt="Maze">
+                <div><b>The Chocolate Drops, Photo by Mike Hill</b></div>
+            </picture>
+            <picture>
+                <source srcset="images/needlessmall.jpg" media="(max-width: 35rem)">
+                <source srcset="images/needleswide.jpg" media="(min-width: 35rem)">
+                <img src="images/needlesdef.jpg" alt="Needles">
+                <div><b>Sandstone spires in Elephant Canyon photgraphed by NPS/Neal Herbert</b></div>
+            </picture>
+        </div>
+
+        <div>
+            <h1>Canyonlands National Park</h1>
+            <p>Canyonlands National Park preserves 337,598 acres of colorful canyons, mesas, buttes, fins, arches, and spires in the heart of southeast Utah's high desert. Water and gravity have been the prime architects of this land, sculpting layers of rock into the rugged landscape you see today.</p>
+
+            <p>Canyonlands preserves the natural beauty and human history throughout its four districts, which are divided by the Green and Colorado rivers. While the districts share a primitive desert atmosphere, each retains its own character and offers different opportunities for exploration and adventure.</p>
+            
+            <p>Though they appear close on a map, there are no roads that directly link the districts. Traveling between them requires two to six hours by car as there are few places to cross the rivers. Get directions. Most people find it impractical to visit more than one area in a single trip. Use the map below to get some ideas on places to go.</p>
+        </div>
     </main>
 
     <!--footer-->
@@ -44,5 +84,20 @@
         &copy; 2021 &bull; Cam Stephens &bull;
     </footer>
 <script src="js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 1000,
+            cssEase: 'ease-out',
+            autoplay: true,
+            autoplaySpeed: 25000
+        });
+    });
+</script>
 </body>
 </html>
