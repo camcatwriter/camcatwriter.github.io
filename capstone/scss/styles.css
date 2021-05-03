@@ -448,6 +448,14 @@ main.volunteer {
   main.volunteer form label.top input:required:valid {
     border-left: green solid 6px; }
 
+main.photogallery {
+  padding: 0 2%; }
+  main.photogallery figure img {
+    width: 100%; }
+
+main.animals {
+  padding: 0 2%; }
+
 /*----------- FOOTER --------------*/
 footer {
   background-color: #400D01;

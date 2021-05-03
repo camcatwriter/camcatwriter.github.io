@@ -172,6 +172,17 @@ main.volunteer {
     }
 }
 
+main.photogallery {
+    padding: 0 2%;
+    figure img {
+        width: 100%;
+    }
+}
+
+main.animals {
+    padding: 0 2%;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: $darkBrown;
