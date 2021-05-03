@@ -374,17 +374,17 @@ main.thanks {
     padding: 1.5rem;
     padding-left: 2rem; }
 
-main.index {
+main#index {
   padding: 0 2%;
   min-height: 10rem; }
-  main.index p {
+  main#index p {
     margin-left: 2%;
     margin-right: 2%; }
-  main.index h1 {
+  main#index h1 {
     margin-left: 2%; }
-  main.index div.slider picture {
+  main#index div.slider picture {
     position: relative; }
-    main.index div.slider picture div {
+    main#index div.slider picture div {
       position: absolute;
       bottom: 0;
       padding-left: .5rem;
@@ -394,7 +394,7 @@ main.index {
       color: white;
       font-weight: 300;
       font-size: 1.2rem; }
-    main.index div.slider picture img {
+    main#index div.slider picture img {
       width: 100vw; }
 
 main.volunteer {
