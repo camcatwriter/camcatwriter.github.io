@@ -1,4 +1,12 @@
 header, nav, main, footer {
     max-width: 64rem;
-    margin:auto;
+}
+
+nav {
+    ul li {
+        width: auto;
+        a {
+            padding: .6rem 1rem;
+        }
+    }
 }

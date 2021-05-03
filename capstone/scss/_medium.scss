@@ -1,0 +1,28 @@
+nav {
+    button {
+        display: none;
+    }
+    ul {
+        margin-left: 2%;
+        li{
+            float: left;
+            width: 25%;
+            text-align: center;
+            background-color: $lightBlue;
+            a {
+                border: none;
+                padding: .8rem 1rem;
+            }
+        }
+        li.active a {
+            background-color: $darkBlue;
+            color: rgba(white, 0.9);
+        }
+        li a:hover {
+            background-color: rgba(black, 0.4);
+        }
+    }
+    ul.hide {
+        display: block;
+    }
+}
