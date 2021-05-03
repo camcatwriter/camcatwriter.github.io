@@ -5,7 +5,7 @@
 <meta name="description" content="Capstone Canyonlands Project">
 <meta name="author" content="Cam Stephens">
 
-<title>Canyonlands Volunteer</title>
+<title>Canyonlands Volunteering</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <link href="scss/styles.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +20,7 @@
             srcset="/images/1x/logo1x.png 1x, /images/2x/logo2x.png 2x, /images/3x/logo3x.png 3x">
         </figure>
         <div>
-            <h1>Canyonlands Volunteer Signup</h1>
+            <h1>Canyonlands Volunteering</h1>
         </div>
     </header>
     <!--end header-->
@@ -35,8 +35,40 @@
         </ul>
     </nav>
     <!--end navigation-->
-    <main>
-        
+    <main class="volunteer">
+        <h1>Volunteer Signup Form</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal and Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="name" required></label>
+                <div>Pronouns</div>
+                <label class="sbs"><input type="checkbox" name="pronouns" value="she/her">She/Her</label>
+                <label class="sbs"><input type="checkbox" name="pronouns" value="he/him">He/Him</label>
+                <label class="sbs"><input type="checkbox" name="pronouns" value="they/them">They/Them</label>
+                <label class="sbs"><input type="checkbox" name="pronouns" value="other">Other</label>
+                <label class="top">Phone* <input type="text" name="phone" placeholder="0005551234" required></label>
+                <label class="top">Email <input type="text" name="email" placeholder="name@gmail.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Volunteering Details</legend>
+                <label class="top">Desired Position
+                    <select name="position">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="student">Student Volunteering</option>
+                        <option value="group">Group Project</option>
+                        <option value="long-term">Long-Term Volunteering</option>
+                        <option value="internship">Outdoor Education Internship</option>
+                        <option value="studentconservationassociation">Student Conservation Association</option>
+                        <option value="other">Other(Specify Below)</option>
+                    </select>
+                </label>
+                <label class="top" class="textbox">Anything specific we should know? Elaborate here. <input type="textarea" name="shortanswer"></label>
+                <label class="top">Date of Arrival <input type="date" name="arrivaldate" required></label>
+            </fieldset>
+
+            <input class="submitBtn" type="submit" name="volunteer" value="Apply to be a Volunteer">
+        </form>
     </main>
 
     <!--footer-->

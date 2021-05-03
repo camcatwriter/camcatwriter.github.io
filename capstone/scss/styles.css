@@ -383,19 +383,70 @@ main.index {
   main.index h1 {
     margin-left: 2%; }
   main.index div.slider picture {
-    width: 100%;
     position: relative; }
+    main.index div.slider picture div {
+      position: absolute;
+      bottom: 0;
+      padding-left: .5rem;
+      padding-right: .25rem;
+      line-height: 1.3;
+      background-color: rgba(0, 0, 0, 0.4);
+      color: white;
+      font-weight: 300;
+      font-size: 1.2rem; }
     main.index div.slider picture img {
-      width: 100%; }
-  main.index div.slider div div b {
-    color: white;
-    padding-left: .5rem;
-    padding-right: .25rem;
-    line-height: 1.3;
-    background-color: rgba(0, 0, 0, 0.4); }
-  main.index div.slider div div {
-    position: absolute;
-    bottom: 0; }
+      width: 100vw; }
+
+main.volunteer {
+  padding: 0 2%; }
+  main.volunteer form fieldset {
+    margin: 2rem 00;
+    border: 1px solid #035AA6;
+    border-radius: 10px;
+    padding: .5rem 2%; }
+  main.volunteer form legend {
+    color: #012442;
+    margin: 0 1rem;
+    padding: 0 .5rem; }
+  main.volunteer form label.top, main.volunteer form div {
+    display: block;
+    padding-top: 1rem;
+    color: #023f74;
+    font-size: .8rem; }
+  main.volunteer form label.top input, main.volunteer form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #023f74;
+    background-color: #f6fbff;
+    width: 100%;
+    max-width: 20rem; }
+  main.volunteer form label.sbs {
+    display: block;
+    padding: .75rem 0%;
+    color: #023f74; }
+  main.volunteer form label.sbs input[type=checkbox] {
+    width: 1.5rem;
+    height: 1.2rem;
+    vertical-align: middle; }
+  main.volunteer form input.submitBtn {
+    border: none;
+    color: #f6fbff;
+    background-color: #035AA6;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-weight: 500;
+    font-size: 1.2rem; }
+  main.volunteer form label.top input:required {
+    border-left: red solid 6px; }
+  main.volunteer form label.top input:required:valid {
+    border-left: green solid 6px; }
 
 /*----------- FOOTER --------------*/
 footer {
@@ -529,7 +580,7 @@ footer {
         width: 20px;
         height: 20px;
         font-family: "slick";
-        font-size: 6px;
+        font-size: 60px;
         line-height: 20px;
         text-align: center;
         color: black;
@@ -644,7 +695,10 @@ footer {
   nav ul li {
     width: auto; }
     nav ul li a {
-      padding: .6rem 1rem; } }
+      padding: .6rem 1rem; }
+
+  form label.sbs {
+    padding: .4rem 0%; } }
 /* end of media query */
 
 /*# sourceMappingURL=styles.css.map */
