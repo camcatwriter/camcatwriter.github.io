@@ -26,3 +26,9 @@ nav {
         display: block;
     }
 }
+
+main.animals {
+    div.cardDeck {
+        grid-template-columns: 1fr 1fr;
+    }
+}

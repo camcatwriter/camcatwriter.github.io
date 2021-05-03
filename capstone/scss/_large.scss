@@ -1,5 +1,5 @@
 header, nav, main, footer {
-    max-width: 75rem;
+    max-width: 90rem;
     margin: auto;
 }
 
@@ -14,4 +14,9 @@ nav {
 
 form label.sbs {
     padding: .4rem 0%;
+}
+
+main.animals div.cardDeck {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

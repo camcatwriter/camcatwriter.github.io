@@ -421,7 +421,7 @@ main.volunteer {
     border-radius: 6px;
     padding: .75rem;
     color: #023f74;
-    background-color: #f6fbff;
+    background-color: #ddf2fe;
     width: 100%;
     max-width: 20rem; }
   main.volunteer form label.sbs {
@@ -450,11 +450,29 @@ main.volunteer {
 
 main.photogallery {
   padding: 0 2%; }
+  main.photogallery figure {
+    margin: 0;
+    padding-bottom: 1rem; }
   main.photogallery figure img {
     width: 100%; }
 
 main.animals {
-  padding: 0 2%; }
+  padding: 0 2%;
+  color: #400D01; }
+  main.animals div.cardDeck {
+    background-color: #ecd2c2;
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    main.animals div.cardDeck div {
+      border: 1px #864C29 solid;
+      border-radius: 6px;
+      padding: .5rem;
+      margin: .5rem; }
+      main.animals div.cardDeck div img {
+        width: 100%; }
+    main.animals div.cardDeck div:hover {
+      background-color: #f2e0d5; }
 
 /*----------- FOOTER --------------*/
 footer {
@@ -693,11 +711,14 @@ footer {
     nav ul li a:hover {
       background-color: rgba(0, 0, 0, 0.4); }
   nav ul.hide {
-    display: block; } }
+    display: block; }
+
+  main.animals div.cardDeck {
+    grid-template-columns: 1fr 1fr; } }
 /* end of media query */
 @media only screen and (min-width: 64rem) {
   header, nav, main, footer {
-    max-width: 75rem;
+    max-width: 90rem;
     margin: auto; }
 
   nav ul li {
@@ -706,7 +727,11 @@ footer {
       padding: .6rem 1rem; }
 
   form label.sbs {
-    padding: .4rem 0%; } }
+    padding: .4rem 0%; }
+
+  main.animals div.cardDeck {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; } }
 /* end of media query */
 
 /*# sourceMappingURL=styles.css.map */
