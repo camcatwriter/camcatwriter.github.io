@@ -362,6 +362,17 @@ nav {
     display: none; }
 
 /*----------- MAIN --------------*/
+main.thanks {
+  background-color: #d49874;
+  color: #400D01; }
+  main.thanks h1 {
+    margin: 0;
+    padding: 2rem; }
+  main.thanks h2 {
+    margin: 0;
+    padding: 1.5rem;
+    padding-left: 2rem; }
+
 /*----------- FOOTER --------------*/
 footer {
   background-color: #400D01;

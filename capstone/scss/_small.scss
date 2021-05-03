@@ -64,6 +64,20 @@ nav {
 
 /*----------- MAIN --------------*/
 
+main.thanks {
+    background-color: lighten($lightBrown, 30%);
+    color: $darkBrown;
+    h1{
+        margin: 0;
+        padding: 2rem;
+    }
+    h2{
+        margin: 0;
+        padding: 1.5rem;
+        padding-left: 2rem;
+    }
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: $darkBrown;
