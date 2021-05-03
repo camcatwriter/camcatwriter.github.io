@@ -459,6 +459,8 @@ main.photogallery {
 main.animals {
   padding: 0 2%;
   color: #400D01; }
+  main.animals h2 {
+    text-align: center; }
   main.animals div.cardDeck {
     background-color: #ecd2c2;
     padding: 0 2%;
@@ -471,6 +473,18 @@ main.animals {
       margin: .5rem; }
       main.animals div.cardDeck div img {
         width: 100%; }
+      main.animals div.cardDeck div a {
+        color: #400D01;
+        text-decoration: none;
+        border: 1px #400D01 solid;
+        border-radius: 10px;
+        padding: 1rem;
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+        background-color: #e6c3ae; }
+      main.animals div.cardDeck div a:hover {
+        background-color: #e0b59b; }
     main.animals div.cardDeck div:hover {
       background-color: #f2e0d5; }
 

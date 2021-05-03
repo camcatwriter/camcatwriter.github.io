@@ -186,6 +186,9 @@ main.photogallery {
 main.animals {
     padding: 0 2%;
     color: $darkBrown;
+    h2 {
+        text-align: center;
+    }
     div.cardDeck {
         background-color: lighten($lightBrown, 50%);
         padding: 0 2%;
@@ -198,6 +201,20 @@ main.animals {
             margin: .5rem;
             img {
                 width: 100%;
+            }
+            a {
+                color: $darkBrown;
+                text-decoration: none;
+                border: 1px $darkBrown solid;
+                border-radius: 10px;
+                padding: 1rem;
+                display: block;
+                text-align: center;
+                font-size: 1.2rem;
+                background-color: lighten($lightBrown, 45%);
+            }
+            a:hover {
+                background-color: lighten($lightBrown, 40%);
             }
         }
         div:hover {
