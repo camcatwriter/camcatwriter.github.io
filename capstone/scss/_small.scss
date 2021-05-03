@@ -11,7 +11,20 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 /*----------- HEADER --------------*/
-
+header {
+    padding: .5rem 2%;
+    background-color: lighten($lightBrown, 40%);
+    figure.logo {
+        float: left;
+        margin-left: 2%;
+    }
+    h1 {
+        margin: 0;
+        padding-top: 2rem;
+        color: $darkBrown;
+        font-size: 3em;
+    }
+}
 
 /*----------- NAV --------------*/
 nav {
@@ -52,3 +65,17 @@ nav {
 /*----------- MAIN --------------*/
 
 /*----------- FOOTER --------------*/
+footer {
+    background-color: $darkBrown;
+    color: white;
+    padding: .5rem 2%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

@@ -320,6 +320,18 @@ body {
   font-family: 'Rubik', sans-serif; }
 
 /*----------- HEADER --------------*/
+header {
+  padding: .5rem 2%;
+  background-color: #e0b59b; }
+  header figure.logo {
+    float: left;
+    margin-left: 2%; }
+  header h1 {
+    margin: 0;
+    padding-top: 2rem;
+    color: #400D01;
+    font-size: 3em; }
+
 /*----------- NAV --------------*/
 nav {
   background-color: #0477BF;
@@ -351,6 +363,19 @@ nav {
 
 /*----------- MAIN --------------*/
 /*----------- FOOTER --------------*/
+footer {
+  background-color: #400D01;
+  color: white;
+  padding: .5rem 2%;
+  font-size: 1.2rem;
+  text-align: center; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 @media only screen and (min-width: 35rem) {
   nav button {
     display: none; }
@@ -374,7 +399,8 @@ nav {
 /* end of media query */
 @media only screen and (min-width: 64rem) {
   header, nav, main, footer {
-    max-width: 64rem; }
+    max-width: 64rem;
+    margin: auto; }
 
   nav ul li {
     width: auto; }
