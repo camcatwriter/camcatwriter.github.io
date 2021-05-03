@@ -5,7 +5,7 @@
 <meta name="description" content="Capstone Canyonlands Project">
 <meta name="author" content="Cam Stephens">
 
-<title>Canyonlands Capstone Photo Gallery</title>
+<title>Canyonlands Gallery</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <link href="scss/styles.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,19 +14,24 @@
 </head>
 <body>
     <!--header-->
-    <header>
-        <h1>Canyonlands Photo Gallery</h1>
-        logo here
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="/images/1x/logo1x.png" alt="National Park Service Logo"
+            srcset="/images/1x/logo1x.png 1x, /images/2x/logo2x.png 2x, /images/3x/logo3x.png 3x">
+        </figure>
+        <div>
+            <h1>Canyonlands Gallery</h1>
+        </div>
     </header>
     <!--end header-->
     <!--navigation-->
-    <nav id="">
-        <a class="" href="#">X</a>
-        <ul >
+    <nav id="" class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href="/index.html">Home</a></li>
-            <li class="active"><a href="/volunteer.html">Volunteer</a></li>
+            <li><a href="/volunteer.html">Volunteer</a></li>
             <li><a href="/animals.html">Animals</a></li>
-            <li><a href="#">Photo Gallery</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
         </ul>
     </nav>
     <!--end navigation-->
@@ -35,7 +40,7 @@
     </main>
 
     <!--footer-->
-    <footer>
+    <footer class="clearfix">
         &copy; 2021 &bull; Cam Stephens &bull;
     </footer>
 <script src="js/scripts.js"></script>
