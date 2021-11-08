@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" appversion="6.1.13" apprev="18080">
+  <input width="2989" overlap="1" height="2989" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
+    <level width="2989" preload="0" height="2989" predecode="0"/>
+    <level width="1494" preload="0" height="1494" predecode="0"/>
+    <level width="747" preload="0" height="747" predecode="0"/>
+    <level width="373" preload="1" height="373" predecode="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="-12.54" fovmode="0">
+    <start pan="0" fov="70" tilt="0" projection="4"/>
+    <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max pan="360" fovstereographic="270" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+  </view>
+  <userdata author="Cam Stephens" tags="" copyright="" source="" heading="-12.54" title="Spanish Fork Memorial Square" comment="" description="Memorial Square Park on Main Street in Spanish Fork Utah" nodeid="node1" latitude="40.11266000" customnodeid="" datetime="" info="" longitude="-111.65444000"/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" enabled="1" borderradius="1" textcolor="0x000000" background="1" borderalpha="1" textalpha="1" border="1"/>
+    <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition blendtime="1" zoomoutpause="1" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomout="0" type="crossdissolve" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomafteroutfov="20"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control invertwheel="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" contextvr="1" lockedmouse="0" lockedwheel="0" simulatemass="1" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" sensitivity="8"/>
+</panorama>
