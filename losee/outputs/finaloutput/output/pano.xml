@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama id="node1" apprev="18080" appversion="6.1.13">
-  <input levelingpitch="-0.918981" overlap="1" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2982" levelbiashidpi="1.000" height="2982" levelbias="0.400" levelingroll="-0.109701">
-    <level predecode="0" width="2982" height="2982" preload="0"/>
-    <level predecode="0" width="1491" height="1491" preload="0"/>
-    <level predecode="0" width="745" height="745" preload="0"/>
-    <level predecode="1" width="372" height="372" preload="1"/>
-    <preview strip="1" color="0x808080"/>
+<panorama appversion="6.1.13" apprev="18080" id="node1">
+  <input levelingpitch="3.89628" height="2982" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0.5357769999999999" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" width="2982" overlap="1">
+    <level height="2982" predecode="0" width="2982" preload="0"/>
+    <level height="1491" predecode="0" width="1491" preload="0"/>
+    <level height="745" predecode="0" width="745" preload="0"/>
+    <level height="372" predecode="1" width="372" preload="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
-  <view fovmode="0" pannorth="0">
-    <start fov="70" tilt="0" projection="4" pan="0"/>
-    <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-    <min tilt="-90" pan="0" fovpixel="2"/>
-    <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+  <view pannorth="0" fovmode="0">
+    <start pan="-136.955" tilt="-7.86849" fov="70" projection="4"/>
+    <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+    <min pan="0" tilt="-90" fovpixel="2"/>
+    <max pan="360" fovfisheye="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120"/>
   </view>
-  <userdata info="" datetime="11/6/21 9:11 AM" customnodeid="" title="" source="" tags="book panos for single upload" nodeid="node1" heading="0" comment="" description="" copyright="" author="" latitude="" longitude=""/>
-  <hotspots wordwrap="1" width="180" height="20">
-    <label textalpha="1" enabled="1" background="1" backgroundalpha="1" borderradius="1" wordwrap="1" width="180" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" border="1" borderalpha="1" textcolor="0x000000"/>
-    <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
-    <hotspot fov="38.0126" distance3D="870.952" title="" customimage="media/final.png" tilt="1.27" use3D="1" id="Point01" customimageheight="400" customimagewidth="600" skinid="ht_image" pan="-246.88" description="" url="" target=""/>
+  <userdata source="" heading="0" comment="" longitude="" datetime="11/6/21 9:11 AM" nodeid="node1" title="" description="" customnodeid="" latitude="" tags="book panos for single upload" author="" info="" copyright=""/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label background="1" height="20" backgroundcolor="0xffffff" borderalpha="1" textalpha="1" borderradius="1" wordwrap="1" border="1" textcolor="0x000000" width="180" enabled="1" bordercolor="0x000000" backgroundalpha="1"/>
+    <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+    <hotspot pan="-245.8" url="images/final.png" id="Point01" title="Campus Tour visitor Parking" description="" skinid="ht_image" tilt="0.06" target=""/>
   </hotspots>
-  <media/>
-  <transition zoomafteroutfov="20" zoomin="0" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" zoomfov="20" enabled="1" softedge="0" blendtime="1" zoomoutpause="1" zoomafterinfov="90" zoomout="0"/>
-  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-  <control dblclickfullscreen="0" speedwheel="1" sensitivity="8" contextprojections="0" lockedkeyboard="0" lockedmouse="0" lockedkeyboardzoom="0" contextfullscreen="1" simulatemass="1" lockedwheel="0" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1"/>
+  <media>
+    <sound pan="-150.040" pansize="2.000" startmutedmobile="0" mode="3" id="Element01" ambientlevel="0.100" nodechangekeep="0" tiltsize="2.000" tilt="-11.360" loop="1" level="1.000" field="70.000">
+      <source url="media/xylophone_01.mp3"/>
+    </sound>
+  </media>
+  <transition zoomafteroutfov="20" zoomspeed="2" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomafterinfov="90" blendtime="1" zoomin="0" enabled="1" zoomoutpause="1"/>
+  <autorotate speed="0.050" noderandom="1" delay="5.00" nodefilter="" useanimation="0" startloaded="0" returntohorizon="0.000" enabled="1" nodedelay="0.00"/>
+  <flyintransition speed="2.00" enabled="1"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control lockedmouse="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" rubberband="0" contextfullscreen="1" speedwheel="1" contextvr="1" contextprojections="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0"/>
 </panorama>

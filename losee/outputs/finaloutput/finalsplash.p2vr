@@ -8,16 +8,39 @@
       <type>auto</type>
       <filename>/Volumes/CAMCAT/Losee Book/book panos for single upload/finalsplash.jpg</filename>
       <videotype>equi</videotype>
-      <levelpitch>-0.918981</levelpitch>
-      <levelroll>-0.109701</levelroll>
-      <leveltimestamp>2021-11-29T12:04:25</leveltimestamp>
+      <levelpitch>3.89628</levelpitch>
+      <levelroll>0.535777</levelroll>
+      <leveltimestamp>2021-11-29T14:43:10</leveltimestamp>
     </input>
     <viewingparameter>
-      <pan/>
-      <tilt/>
-      <fov/>
-      <flyinstart/>
+      <pan>
+        <start>-136.955</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>-7.86849</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>70</start>
+        <minunit>pixels</minunit>
+        <minpixels>2</minpixels>
+        <max>120</max>
+        <maxfovstereographic>270</maxfovstereographic>
+        <maxfovfisheye>360</maxfovfisheye>
+      </fov>
+      <flyinstart>
+        <pan>0</pan>
+        <tilt>-90</tilt>
+        <fov>170</fov>
+      </flyinstart>
       <pannorth>0</pannorth>
+      <scaletofit>1</scaletofit>
+      <projection>rectilinear</projection>
+      <flyinprojection>stereo</flyinprojection>
+      <defaultviewtimestamp>2021-11-29T15:07:49</defaultviewtimestamp>
     </viewingparameter>
     <userdata>
       <capturedatetime>2021-11-06T09:11:00</capturedatetime>
@@ -28,9 +51,9 @@
     <hotspots>
       <hotspot>
         <position>
-          <pan>-246.88</pan>
-          <tilt>1.27</tilt>
-          <fov>38.0126</fov>
+          <pan>-245.8</pan>
+          <tilt>0.06</tilt>
+          <fov>10</fov>
         </position>
         <next>
           <pan>0</pan>
@@ -40,15 +63,16 @@
         <polygon/>
         <type>point</type>
         <id>Point01</id>
+        <title>Campus Tour visitor Parking</title>
         <linktype>image</linktype>
         <linksubtype>unknown</linksubtype>
+        <url>../final.png</url>
         <distance>0</distance>
         <distanceauto>1</distanceauto>
         <autoplace>0</autoplace>
-        <customimage>../final.png</customimage>
-        <use3d>1</use3d>
-        <width>600</width>
-        <height>400</height>
+        <use3d>0</use3d>
+        <width>0</width>
+        <height>0</height>
       </hotspot>
     </hotspots>
     <output>
@@ -71,20 +95,62 @@
           <zoomafterinfov>90</zoomafterinfov>
           <zoomafteroutfov>20</zoomafteroutfov>
         </transition>
-        <autorotate/>
+        <autorotate>
+          <enabled>1</enabled>
+          <speed>0.05</speed>
+        </autorotate>
         <soundstransition/>
-        <flyintransition/>
+        <flyintransition>
+          <enabled>1</enabled>
+        </flyintransition>
         <hotspottext/>
         <hotspotstyle/>
         <webvr/>
         <tilesize>2982</tilesize>
         <filename>output/pano.xml</filename>
-        <skinfile>silhouette_v6.ggsk</skinfile>
+        <skinfile>/Volumes/CAMCAT/Losee Book/outputs/simplex_v6edit.ggsk</skinfile>
+        <skinconfiguration>
+          <value id="opt_thumbnail">false</value>
+          <value id="opt_thumbnail_tooltip">false</value>
+        </skinconfiguration>
+        <skintablesconfiguration/>
+        <skincolorsconfiguration>
+          <value id="Button/Hotspot Foreground">4294967295</value>
+          <value id="Screen Tint">1677721600</value>
+          <value id="Scrollbar Background">1694498815</value>
+          <value id="Scrollbar Foreground">4294967295</value>
+          <value id="Thumbnail Active Border">4294967295</value>
+          <value id="Thumbnail Border">4291940817</value>
+          <value id="Tooltip Text Background">2181038080</value>
+          <value id="Tooltip Text Foreground">4294967295</value>
+        </skincolorsconfiguration>
       </htmlcss>
     </output>
     <streetview/>
     <streetviewproject/>
-    <sounds/>
+    <sounds>
+      <sound>
+        <position>
+          <pan>-150.04</pan>
+          <tilt>-11.36</tilt>
+        </position>
+        <videorect/>
+        <type>audio</type>
+        <id>Element01</id>
+        <filename>/Volumes/CAMCAT/assignments1-4/Assignment 04node park/xylophone_01.mp3</filename>
+        <mode>3</mode>
+        <nodechangekeep>0</nodechangekeep>
+        <locked>0</locked>
+        <pansize>2</pansize>
+        <tiltsize>2</tiltsize>
+        <fieldsize>70</fieldsize>
+        <ambientlevel>0.1</ambientlevel>
+        <startmutedmobile>0</startmutedmobile>
+        <level>1</level>
+        <loop>1</loop>
+        <copyfile>1</copyfile>
+      </sound>
+    </sounds>
     <animation>
       <title>Animation01</title>
     </animation>
