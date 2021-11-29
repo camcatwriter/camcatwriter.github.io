@@ -1,56 +1,81 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<link href="css/styles.css" rel="stylesheet">
-<title>Cam Stephens Home</title>
-</head>
-
-
-<body>
-<header>
-    <h1>Cam Stephens</h1>
-    <h2>Knows What They're Doing</h2>
-</header>
-
-<nav>
-    <ul>
-        <!-- <li><a href="index.html">Home</a></li> -->
-        <!-- <li><a href="index.html">Agenda</a></li> -->
-        <!-- <li><a href="index.html">Schedule</a></li> -->
-    </ul>
-</nav>
-
-<main>
-    <h1>Home</h1>
-    <img src="cam.jpeg" alt="Cam Stephens, a person in their 20s with brown hair and eyes wearing a newsboy cap">
-    <!-- <p>Competently network world-class leadership whereas 24/365 opportunities. Dramatically engage compelling quality vectors after 24/7 content. Interactively predominate plug-and-play schemas through web-enabled intellectual capital. Rapidiously leverage existing premium technology through ubiquitous process improvements. Globally fashion maintainable infomediaries rather than holistic testing procedures.
-        Progressively fashion seamless convergence via future-proof paradigms. Synergistically restore excellent models whereas impactful initiatives. Seamlessly synthesize global collaboration and idea-sharing with cross functional expertise. Authoritatively brand business infrastructures.</p>
-    <p>test paragraph</p> -->
-        <ol>
-        <li><a href="ranch-start/index.html">Ranch Project</a></li>
-            <li><a href="science museum/index.html">Science Museum</a></li>
-            <li><a href="fruitstand00/index.html">Fruit Stand</a></li>
-            <li><a href="nationalpark/index.html">National Park</a></li>
-            <li><a href="restaurant/index.html">Restaurant</a></li>
-            <li><a href="band/index.html">Band</a></li>
-            <li><a href="lawfirm/index.html">Law Firm</a></li>
-            <li><a href="news/index.html">News</a></li>
-            <li><a href="boston/index.html">Boston</a></li>
-            <li><a href="form/index.html">Form</a></li>
-            <li><a href="tech/index.html">TechWatch</a></li>
-            <li><a href="hotel/index.html">Hotel</a></li>
-            <li><a href="weather/index.html">Weather</a></li>
-            <li><a href="capstone/index.html">Capstone</a></li>
-            <li><a href="kiosk copy/index.html">Apollo 11 Interactive Kiosk</a></li>
-            <li><a href="output/index.html">Object VR Frog Guiro</a></li>
-            <li><a href="07MS/index.html">Memorial Square Tour</a></li>
-            <li><a href="output/swag.html">Swag Pile</a></li>
-        </ol>
-</main>
-
-<footer>
-&copy; Cam Stephens 2021
-</footer>
-</body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<style type="text/css" title="Default">
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				overflow:hidden; /* disable scrollbars */
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
+			}
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+		</style>	
+	</head>
+	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script src="webxr/three.min.js"></script>
+		<script src="webxr/webxr-polyfill.min.js"></script>
+		<div id="container" style="width:100%;height:100%;overflow:hidden;">
+		<br>Loading...<br><br>
+		</div>
+		<script type="text/javascript">
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			// load the configuration
+		
+			window.addEventListener("load", function() {
+				pano.readConfigUrlAsync("pano.xml");
+			});
+			if (window.navigator.userAgent.match(/AppleWebKit/i)) {
+				// fix for white borders, rotation on iPhone
+				function iosHfix(e) {
+					window.scrollTo(0, 1);
+					var container=document.getElementById("container");
+					var oh=container.offsetHeight;
+					document.documentElement.style.setProperty('height', '100vh');
+					if (oh!=container.offsetHeight) {
+						container.style.setProperty('height',"100%");
+					} else {
+						container.style.setProperty('height',window.innerHeight+"px");
+					}
+					window.scrollTo(0, 0);
+					pano.setViewerSize(container.offsetWidth, container.offsetHeight);
+				};
+				setTimeout(iosHfix,0);	
+				setTimeout(iosHfix,100);	
+				window.addEventListener("resize", function() {
+					setTimeout(iosHfix,0);
+					// hide toolbar on iPad happens with a delay
+					setTimeout(iosHfix,500);
+					setTimeout(iosHfix,1000);
+					setTimeout(iosHfix,2000);
+				});
+			}
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
+	</body>
 </html>

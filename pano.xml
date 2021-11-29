@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.13" apprev="18080" id="node1">
+  <input levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="1.99054" width="2982" height="2982" levelingroll="2.51429" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level preload="0" width="2982" height="2982" predecode="0"/>
+    <level preload="0" width="1491" height="1491" predecode="0"/>
+    <level preload="0" width="745" height="745" predecode="0"/>
+    <level preload="1" width="372" height="372" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="-220.899" fovmode="0">
+    <start pan="0" fov="70" tilt="0" projection="4"/>
+    <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max pan="360" fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" tilt="90"/>
+  </view>
+  <userdata heading="-220.899" comment="" longitude="-111.71228148" author="" datetime="11/6/21 9:11 AM" info="" customnodeid="" description="" title="" latitude="40.27856290" nodeid="node1" copyright="" source="" tags="book panos for single upload"/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label background="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" borderalpha="1" enabled="1" width="180" height="20" textcolor="0x000000" wordwrap="1" textalpha="1" backgroundalpha="1" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+  </hotspots>
+  <media/>
+  <transition type="crossdissolve" zoomafterinfov="90" softedge="0" zoomafteroutfov="20" enabled="1" blendtime="1" zoomfov="20" blendcolor="0x000000" zoomout="0" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" invertcontrol="1" contextfullscreen="1" speedwheel="1" contextprojections="0" lockedkeyboardzoom="0" rubberband="0" invertwheel="0" simulatemass="1" contextvr="1" lockedmouse="0"/>
+</panorama>
