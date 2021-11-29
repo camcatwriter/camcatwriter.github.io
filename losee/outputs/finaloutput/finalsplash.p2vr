@@ -8,9 +8,9 @@
       <type>auto</type>
       <filename>/Volumes/CAMCAT/Losee Book/book panos for single upload/finalsplash.jpg</filename>
       <videotype>equi</videotype>
-      <levelpitch>2.11209</levelpitch>
-      <levelroll>2.50558</levelroll>
-      <leveltimestamp>2021-11-29T10:20:31</leveltimestamp>
+      <levelpitch>-0.918981</levelpitch>
+      <levelroll>-0.109701</levelroll>
+      <leveltimestamp>2021-11-29T12:04:25</leveltimestamp>
     </input>
     <viewingparameter>
       <pan/>
@@ -58,7 +58,7 @@
           <enabled>1</enabled>
           <filename>output/index.html</filename>
           <values>
-            <value id="css"></value>
+            <value id="css"/>
             <value id="fitcover">false</value>
             <value id="gginfo">false</value>
             <value id="htmltitle">$(upt)</value>
