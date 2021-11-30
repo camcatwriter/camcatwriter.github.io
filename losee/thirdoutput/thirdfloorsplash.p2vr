@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="18080" version="6.1.13">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>/Volumes/CAMCAT/Losee Book/book panos for single upload/thirdfloorsplash.jpg</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <capturedatetime>2021-11-06T09:55:15</capturedatetime>
+      <datetime>11/6/21 9:55 AM</datetime>
+      <tags>book panos for single upload</tags>
+    </userdata>
+    <floorplans/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-324.22</pan>
+          <tilt>-0.27</tilt>
+          <fov>10</fov>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Point01</id>
+        <title>Women's Success Reception</title>
+        <linktype>image</linktype>
+        <linksubtype>unknown</linksubtype>
+        <url>../popuptemplate-assets/third.png</url>
+        <distance>0</distance>
+        <distanceauto>1</distanceauto>
+        <autoplace>0</autoplace>
+        <use3d>0</use3d>
+        <width>0</width>
+        <height>0</height>
+      </hotspot>
+    </hotspots>
+    <output>
+      <placeidcache>{"entries":[]}</placeidcache>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate>
+          <enabled>1</enabled>
+          <speed>0.05</speed>
+        </autorotate>
+        <soundstransition/>
+        <flyintransition>
+          <enabled>1</enabled>
+        </flyintransition>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>2982</tilesize>
+        <filename>output/pano.xml</filename>
+        <skinfile>/Volumes/CAMCAT/Losee Book/outputs/simplex_v6edit.ggsk</skinfile>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds>
+      <sound>
+        <position>
+          <pan>-248.97</pan>
+          <tilt>-4.91</tilt>
+        </position>
+        <videorect/>
+        <type>audio</type>
+        <id>Element01</id>
+        <filename>/Users/dgmstudent/Downloads/elevator.mp3</filename>
+        <mode>3</mode>
+        <nodechangekeep>0</nodechangekeep>
+        <locked>0</locked>
+        <pansize>3</pansize>
+        <tiltsize>3</tiltsize>
+        <fieldsize>60</fieldsize>
+        <ambientlevel>0.1</ambientlevel>
+        <startmutedmobile>0</startmutedmobile>
+        <level>1</level>
+        <loop>2</loop>
+        <copyfile>1</copyfile>
+      </sound>
+    </sounds>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
