@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="18080" version="6.1.13">
+<pano2vrconfig version="6.1.13" rev="18080">
   <tour>
     <panorama>
       <input>
@@ -8,9 +8,9 @@
         <type>auto</type>
         <filename>raw/exports/panos/service Panorama.tif</filename>
         <videotype>equi</videotype>
-        <levelpitch>-2.03326</levelpitch>
-        <levelroll>-1.87996</levelroll>
-        <leveltimestamp>2021-11-30T13:51:07</leveltimestamp>
+        <levelpitch>-2.31978</levelpitch>
+        <levelroll>-1.38692</levelroll>
+        <leveltimestamp>2021-12-01T08:39:10</leveltimestamp>
       </input>
       <viewingparameter>
         <pan>
@@ -70,6 +70,81 @@
           <linksubtype>unknown</linksubtype>
           <url>{node5}</url>
           <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-321.41</pan>
+            <tilt>-7.6</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>Lobby</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/lobby.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-255.78</pan>
+            <tilt>-4.61</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Service Corner</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/service.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-88.77</pan>
+            <tilt>-1.35</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>Bulletin</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/bulletin.png</url>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -200,6 +275,81 @@
           <linksubtype>unknown</linksubtype>
           <url>{node6}</url>
           <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-47.9</pan>
+            <tilt>-0.51</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Service Corner</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/service.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-133.6</pan>
+            <tilt>-3.45</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>Bulletin</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/bulletin.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-69.06</pan>
+            <tilt>-2.51</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>Lobby</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/lobby.png</url>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -352,6 +502,81 @@
           <linksubtype>unknown</linksubtype>
           <url>{node5}</url>
           <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-277.1</pan>
+            <tilt>-0.77</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Bulletin</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/bulletin.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-6.89</pan>
+            <tilt>-3.97</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>Pool</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/pool.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-171.87</pan>
+            <tilt>0.69</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>Games</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/games.png</url>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -542,6 +767,56 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-251.72</pan>
+            <tilt>-7.37</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Pool</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/pool.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-15.14</pan>
+            <tilt>-7.32</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>Chairs</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/chairs.png</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -682,6 +957,31 @@
           <linksubtype>unknown</linksubtype>
           <url>{node3}</url>
           <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-119.08</pan>
+            <tilt>-20.49</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Chairs</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>output/chairs.png</url>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
