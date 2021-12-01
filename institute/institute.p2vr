@@ -100,7 +100,7 @@
           <ambientlevel>0.2</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
           <level>0.6</level>
-          <loop>1</loop>
+          <loop>0</loop>
           <copyfile>1</copyfile>
         </sound>
       </sounds>
@@ -230,7 +230,7 @@
           <ambientlevel>0.5</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
           <level>1</level>
-          <loop>1</loop>
+          <loop>0</loop>
           <copyfile>1</copyfile>
         </sound>
         <sound>
@@ -248,10 +248,10 @@
           <pansize>3</pansize>
           <tiltsize>3</tiltsize>
           <fieldsize>30</fieldsize>
-          <ambientlevel>0.1</ambientlevel>
+          <ambientlevel>0.2</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
-          <level>0.8</level>
-          <loop>1</loop>
+          <level>0.7</level>
+          <loop>0</loop>
           <copyfile>1</copyfile>
         </sound>
       </sounds>
@@ -381,8 +381,8 @@
           <fieldsize>50</fieldsize>
           <ambientlevel>0.3</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
+          <level>0.6</level>
+          <loop>0</loop>
           <copyfile>1</copyfile>
         </sound>
         <sound>
@@ -402,29 +402,8 @@
           <fieldsize>20</fieldsize>
           <ambientlevel>0.1</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
-          <level>0.8</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-        </sound>
-        <sound>
-          <position>
-            <pan>-23.4</pan>
-            <tilt>-7.8</tilt>
-          </position>
-          <videorect/>
-          <type>audio</type>
-          <id>Element04</id>
-          <filename>output/piano.mp3</filename>
-          <mode>5</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>0</locked>
-          <pansize>4</pansize>
-          <tiltsize>3</tiltsize>
-          <fieldsize>20</fieldsize>
-          <ambientlevel>0.2</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
           <level>0.6</level>
-          <loop>1</loop>
+          <loop>0</loop>
           <copyfile>1</copyfile>
         </sound>
         <sound>
@@ -577,13 +556,13 @@
           <type>audio</type>
           <id>Element01</id>
           <filename>output/piano.mp3</filename>
-          <mode>5</mode>
+          <mode>3</mode>
           <nodechangekeep>0</nodechangekeep>
           <locked>0</locked>
           <pansize>5</pansize>
           <tiltsize>5</tiltsize>
-          <fieldsize>45</fieldsize>
-          <ambientlevel>0.4</ambientlevel>
+          <fieldsize>50</fieldsize>
+          <ambientlevel>0.3</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
           <level>1</level>
           <loop>1</loop>
@@ -604,10 +583,10 @@
           <pansize>5</pansize>
           <tiltsize>5</tiltsize>
           <fieldsize>20</fieldsize>
-          <ambientlevel>0.1</ambientlevel>
+          <ambientlevel>0.3</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
-          <level>0.7</level>
-          <loop>1</loop>
+          <level>0.6</level>
+          <loop>0</loop>
           <copyfile>1</copyfile>
         </sound>
         <sound>
@@ -625,10 +604,10 @@
           <pansize>4</pansize>
           <tiltsize>4</tiltsize>
           <fieldsize>40</fieldsize>
-          <ambientlevel>0.2</ambientlevel>
+          <ambientlevel>0.3</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
-          <level>0.8</level>
-          <loop>1</loop>
+          <level>0.6</level>
+          <loop>0</loop>
           <copyfile>1</copyfile>
         </sound>
       </sounds>
@@ -724,11 +703,11 @@
           <type>audio</type>
           <id>Element01</id>
           <filename>output/piano.mp3</filename>
-          <mode>5</mode>
+          <mode>3</mode>
           <nodechangekeep>0</nodechangekeep>
           <locked>0</locked>
-          <pansize>2</pansize>
-          <tiltsize>2</tiltsize>
+          <pansize>5</pansize>
+          <tiltsize>5</tiltsize>
           <fieldsize>30</fieldsize>
           <ambientlevel>0.2</ambientlevel>
           <startmutedmobile>0</startmutedmobile>
